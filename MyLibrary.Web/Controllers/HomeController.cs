@@ -1,4 +1,6 @@
-﻿using System;
+﻿using MyLibrary.Web.Extension;
+using MyLibrary.Web.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -6,25 +8,41 @@ using System.Web.Mvc;
 
 namespace MyLibrary.Web.Controllers
 {
-    public class HomeController : Controller
-    {
-        public ActionResult Index()
-        {
-            return View();
-        }
+     public class HomeController : BaseController
+     {
+          // GET: Home
+          public ActionResult Index()
+          {
+               SessionStatus();
+               if ((string)System.Web.HttpContext.Current.Session["LoginStatus"] != "login")
+               {
+                    return RedirectToAction("Index", "Login");
+               }
 
-        public ActionResult About()
-        {
-            ViewBag.Message = "Your application description page.";
+               var user = System.Web.HttpContext.Current.GetMySessionObject();
+               UserData u = new UserData
+               {
+                    Username = user.Username,
+                    Products = new List<string> { "Product #1", "Product #2", "Product #3", "Product #4" }
+               };
 
-            return View();
-        }
+               return View(u);
+          }
 
-        public ActionResult Contact()
-        {
-            ViewBag.Message = "Your contact page.";
+          public ActionResult Product()
+          {
+               var product = Request.QueryString["p"];
 
-            return View();
-        }
-    }
+               UserData u = new UserData();
+               u.Username = "Customer";
+
+               return View(u);
+          }
+
+          [HttpPost]
+          public ActionResult Product(string btn)
+          {
+               return RedirectToAction("Product", "Home", new { @p = btn });
+          }
+     }
 }
