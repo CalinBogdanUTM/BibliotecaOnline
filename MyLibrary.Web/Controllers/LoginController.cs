@@ -38,27 +38,14 @@ namespace MyLibrary.Web.Controllers
                     };
                     var userLogin = _session.UserLogin(data);
 
-                    if (userLogin.Status == 1)
+                    if (userLogin.Status)
                     {
                          HttpCookie cookie = _session.GenCookie(login.Credential);
                          ControllerContext.HttpContext.Response.Cookies.Add(cookie);
                          //ADDcookie
                          return RedirectToAction("Index", "Home");
                     }
-                    if (userLogin.Status == 2)
-                    {
-                         HttpCookie cookie = _session.GenCookie(login.Credential);
-                         ControllerContext.HttpContext.Response.Cookies.Add(cookie);
-                         //ADDcookie
-                         return RedirectToAction("Index", "Moderator");
-                    }
-                    if (userLogin.Status == 3)
-                    {
-                         HttpCookie cookie = _session.GenCookie(login.Credential);
-                         ControllerContext.HttpContext.Response.Cookies.Add(cookie);
-                         //ADDcookie
-                         return RedirectToAction("Index", "Admin");
-                    }
+                    
                     else
                     {
                          ModelState.AddModelError("", userLogin.StatusMsg);

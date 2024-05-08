@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\mylibrary.web\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|solutionrelative:mylibrary.web\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|c:\\users\\denis\\source\\repos\\bibliotecaonline\\mylibrary.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|solutionrelative:mylibrary.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{15CC6D8E-6993-4266-91FB-16591A311446}|MyLibrary.BusinessLogic\\MyLibrary.BusinessLogic.csproj|c:\\users\\denis\\source\\repos\\bibliotecaonline\\mylibrary.businesslogic\\core\\userapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{15CC6D8E-6993-4266-91FB-16591A311446}|MyLibrary.BusinessLogic\\MyLibrary.BusinessLogic.csproj|solutionrelative:mylibrary.businesslogic\\core\\userapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{82B6B11B-A11C-4DB9-AA49-BEF6A011932C}|MyLibrary.Domain\\MyLibrary.Domain.csproj|C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\mylibrary.domain\\entities\\user\\udbtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{82B6B11B-A11C-4DB9-AA49-BEF6A011932C}|MyLibrary.Domain\\MyLibrary.Domain.csproj|solutionrelative:mylibrary.domain\\entities\\user\\udbtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\mylibrary.web\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|solutionrelative:mylibrary.web\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\mylibrary.web\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
@@ -66,11 +70,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MyLibrary.Web\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MyLibrary.Web\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-08T17:32:03.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "202404171153346_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.BusinessLogic\\Migrations\\202404171153346_InitialCreate.cs",
               "RelativeDocumentMoniker": "MyLibrary.BusinessLogic\\Migrations\\202404171153346_InitialCreate.cs",
@@ -82,7 +99,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "202404171153346_InitialCreate.Designer.cs",
               "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.BusinessLogic\\Migrations\\202404171153346_InitialCreate.Designer.cs",
               "RelativeDocumentMoniker": "MyLibrary.BusinessLogic\\Migrations\\202404171153346_InitialCreate.Designer.cs",
@@ -94,20 +111,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "UserAPI.cs",
               "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.BusinessLogic\\Core\\UserAPI.cs",
               "RelativeDocumentMoniker": "MyLibrary.BusinessLogic\\Core\\UserAPI.cs",
               "ToolTip": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.BusinessLogic\\Core\\UserAPI.cs",
               "RelativeToolTip": "MyLibrary.BusinessLogic\\Core\\UserAPI.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAQwHYAAAARAAAA",
+              "ViewState": "AQIAABcAAAAAAAAAAIAwwCgAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-08T14:38:31.03Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Web.config",
               "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.Web\\Views\\Web.config",
               "RelativeDocumentMoniker": "MyLibrary.Web\\Views\\Web.config",
@@ -119,7 +136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "UDbTable.cs",
               "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.Domain\\Entities\\User\\UDbTable.cs",
               "RelativeDocumentMoniker": "MyLibrary.Domain\\Entities\\User\\UDbTable.cs",
@@ -131,20 +148,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Web.config",
               "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.Web\\Web.config",
               "RelativeDocumentMoniker": "MyLibrary.Web\\Web.config",
               "ToolTip": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.Web\\Web.config",
               "RelativeToolTip": "MyLibrary.Web\\Web.config",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAAAEwAAAAQAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
               "WhenOpened": "2024-05-08T14:32:04.062Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "AssemblyInfo.cs",
               "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.Domain\\Properties\\AssemblyInfo.cs",
               "RelativeDocumentMoniker": "MyLibrary.Domain\\Properties\\AssemblyInfo.cs",
@@ -156,7 +173,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Error.cshtml",
               "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.Web\\Views\\Shared\\Error.cshtml",
               "RelativeDocumentMoniker": "MyLibrary.Web\\Views\\Shared\\Error.cshtml",
@@ -168,7 +185,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "_LayoutRegister.cshtml",
               "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.Web\\Views\\Shared\\_LayoutRegister.cshtml",
               "RelativeDocumentMoniker": "MyLibrary.Web\\Views\\Shared\\_LayoutRegister.cshtml",
@@ -180,7 +197,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "_LayoutModerator.cshtml",
               "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.Web\\Views\\Shared\\_LayoutModerator.cshtml",
               "RelativeDocumentMoniker": "MyLibrary.Web\\Views\\Shared\\_LayoutModerator.cshtml",
@@ -192,7 +209,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "_LayoutLogin.cshtml",
               "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.Web\\Views\\Shared\\_LayoutLogin.cshtml",
               "RelativeDocumentMoniker": "MyLibrary.Web\\Views\\Shared\\_LayoutLogin.cshtml",
@@ -204,7 +221,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "_LayoutContact.cshtml",
               "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.Web\\Views\\Shared\\_LayoutContact.cshtml",
               "RelativeDocumentMoniker": "MyLibrary.Web\\Views\\Shared\\_LayoutContact.cshtml",
@@ -216,7 +233,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "_LayoutAdmin.cshtml",
               "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.Web\\Views\\Shared\\_LayoutAdmin.cshtml",
               "RelativeDocumentMoniker": "MyLibrary.Web\\Views\\Shared\\_LayoutAdmin.cshtml",
@@ -228,7 +245,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "_LayoutBooks.cshtml",
               "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.Web\\Views\\Shared\\_LayoutBooks.cshtml",
               "RelativeDocumentMoniker": "MyLibrary.Web\\Views\\Shared\\_LayoutBooks.cshtml",
