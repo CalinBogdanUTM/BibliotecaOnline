@@ -1,0 +1,2 @@
+C:\Users\alinp\source\repos\MyLibrary.Web\MyLibrary.Web\obj\Debug\MyLibrary.Web.csproj.AssemblyReference.cache
+C:\Users\alinp\source\repos\MyLibrary.Web\MyLibrary.Web\obj\Debug\MyLibrary.Web.csproj.CoreCompileInputs.cache

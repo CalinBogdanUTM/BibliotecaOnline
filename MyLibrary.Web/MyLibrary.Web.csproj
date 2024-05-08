@@ -422,6 +422,16 @@
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.4.1.min.map" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MyLibrary.BusinessLogic\MyLibrary.BusinessLogic.csproj">
+      <Project>{15cc6d8e-6993-4266-91fb-16591a311446}</Project>
+      <Name>MyLibrary.BusinessLogic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MyLibrary.Domain\MyLibrary.Domain.csproj">
+      <Project>{82b6b11b-a11c-4db9-aa49-bef6a011932c}</Project>
+      <Name>MyLibrary.Domain</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
