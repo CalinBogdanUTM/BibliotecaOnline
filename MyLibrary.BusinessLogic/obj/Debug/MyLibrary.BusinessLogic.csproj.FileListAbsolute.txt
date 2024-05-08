@@ -1,0 +1,4 @@
+C:\Users\denis\source\repos\BibliotecaOnline\MyLibrary.BusinessLogic\obj\Debug\MyLibrary.BusinessLogic.csproj.AssemblyReference.cache
+C:\Users\denis\source\repos\BibliotecaOnline\MyLibrary.BusinessLogic\obj\Debug\MyLibrary.BusinessLogic.Migrations.InitialCreate.resources
+C:\Users\denis\source\repos\BibliotecaOnline\MyLibrary.BusinessLogic\obj\Debug\MyLibrary.BusinessLogic.csproj.GenerateResource.cache
+C:\Users\denis\source\repos\BibliotecaOnline\MyLibrary.BusinessLogic\obj\Debug\MyLibrary.BusinessLogic.csproj.CoreCompileInputs.cache

@@ -1,0 +1,6 @@
+C:\Users\denis\source\repos\BibliotecaOnline\MyLibrary.Helpers\bin\Debug\MyLibrary.Helpers.dll
+C:\Users\denis\source\repos\BibliotecaOnline\MyLibrary.Helpers\bin\Debug\MyLibrary.Helpers.pdb
+C:\Users\denis\source\repos\BibliotecaOnline\MyLibrary.Helpers\obj\Debug\MyLibrary.Helpers.csproj.AssemblyReference.cache
+C:\Users\denis\source\repos\BibliotecaOnline\MyLibrary.Helpers\obj\Debug\MyLibrary.Helpers.csproj.CoreCompileInputs.cache
+C:\Users\denis\source\repos\BibliotecaOnline\MyLibrary.Helpers\obj\Debug\MyLibrary.Helpers.dll
+C:\Users\denis\source\repos\BibliotecaOnline\MyLibrary.Helpers\obj\Debug\MyLibrary.Helpers.pdb

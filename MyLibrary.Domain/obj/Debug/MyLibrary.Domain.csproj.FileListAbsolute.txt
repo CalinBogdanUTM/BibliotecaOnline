@@ -1,0 +1,10 @@
+C:\Users\denis\source\repos\BibliotecaOnline\MyLibrary.Domain\obj\Debug\MyLibrary.Domain.csproj.AssemblyReference.cache
+C:\Users\denis\source\repos\BibliotecaOnline\MyLibrary.Domain\obj\Debug\MyLibrary.Domain.csproj.CoreCompileInputs.cache
+C:\Users\denis\source\repos\BibliotecaOnline\MyLibrary.Domain\bin\Debug\MyLibrary.Domain.dll.config
+C:\Users\denis\source\repos\BibliotecaOnline\MyLibrary.Domain\bin\Debug\MyLibrary.Domain.dll
+C:\Users\denis\source\repos\BibliotecaOnline\MyLibrary.Domain\bin\Debug\MyLibrary.Domain.pdb
+C:\Users\denis\source\repos\BibliotecaOnline\MyLibrary.Domain\bin\Debug\MyLibrary.Helpers.dll
+C:\Users\denis\source\repos\BibliotecaOnline\MyLibrary.Domain\bin\Debug\MyLibrary.Helpers.pdb
+C:\Users\denis\source\repos\BibliotecaOnline\MyLibrary.Domain\obj\Debug\MyLibrar.E15ECF1A.Up2Date
+C:\Users\denis\source\repos\BibliotecaOnline\MyLibrary.Domain\obj\Debug\MyLibrary.Domain.dll
+C:\Users\denis\source\repos\BibliotecaOnline\MyLibrary.Domain\obj\Debug\MyLibrary.Domain.pdb
