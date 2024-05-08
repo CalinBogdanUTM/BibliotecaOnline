@@ -1,0 +1,72 @@
+﻿
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "/Views/Shared/_LayoutRegister.cshtml";}
+
+
+@*@model MyLibrary.Web.Models.UserReg
+    <style>
+
+    .form-group {
+    margin-bottom: 20px;
+    }
+
+    label {
+    font-weight: bold;
+    }
+
+    .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    }
+
+    .btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    }
+
+    .btn-primary:hover {
+    background-color: #0056b3;
+    }
+
+    </style>
+
+    @using (Html.BeginForm("Index", "Register", FormMethod.Post))
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-group">
+            @Html.LabelFor(m => m.Credential)
+            @Html.TextBoxFor(m => m.Credential, new { @class = "form-control" })
+            @Html.ValidationMessageFor(m => m.Credential)
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(m => m.Email)
+            @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
+            @Html.ValidationMessageFor(m => m.Email)
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(m => m.Password)
+            @Html.PasswordFor(m => m.Password, new { @class = "form-control" })
+            @Html.ValidationMessageFor(m => m.Password)
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(m => m.ConfirmPassword)
+            @Html.PasswordFor(m => m.ConfirmPassword, new { @class = "form-control" })
+            @Html.ValidationMessageFor(m => m.ConfirmPassword)
+        </div>
+
+        <button type="submit" class="btn btn-primary">Register</button>
+    }
+
+*@

@@ -1,0 +1,53 @@
+﻿@model MyLibrary.Web.Models.UserReg
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - codingnepalweb.com -->
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Registration or Sign Up form in HTML CSS | CodingLab </title>
+    <link href="~/Vendor/css/authstyle.css" rel="stylesheet" />
+    @RenderBody()
+</head>
+<body>
+    <div class="wrapper">
+        <h2>Registration</h2>
+        @using (Html.BeginForm("Index", "Register", FormMethod.Post, new { @class = "registration-form" }))
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="input-box">
+          
+                @Html.TextBoxFor(m => m.Credential, new { @class = "form-control", placeholder = "Username", required = "required" })
+                @Html.ValidationMessageFor(m => m.Credential)
+            </div>
+
+            <div class="input-box">
+           
+                @Html.TextBoxFor(m => m.Email, new { @class = "form-control", placeholder = "Email", required = "required" })
+                @Html.ValidationMessageFor(m => m.Email)
+            </div>
+
+            <div class="input-box">
+            
+                @Html.PasswordFor(m => m.Password, new { @class = "form-control", placeholder = "Password", required = "required" })
+                @Html.ValidationMessageFor(m => m.Password)
+            </div>
+
+            <div class="input-box">
+          
+                @Html.PasswordFor(m => m.ConfirmPassword, new { @class = "form-control", placeholder = "Confirm Password", required = "required" })
+                @Html.ValidationMessageFor(m => m.ConfirmPassword)
+            </div>
+
+            <div class="input-box button">
+                <input type="submit" value="Register Now">
+            </div>
+        }
+
+        <div class="text">
+            <h3>Already have an account? <a href="@Url.Action("Index","Login")">Login now</a></h3>
+        </div>
+    </div>
+</body>
+</html>
