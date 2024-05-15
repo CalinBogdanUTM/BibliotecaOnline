@@ -1,0 +1,115 @@
+﻿@using MyLibrary.Domain.Entities.Book
+
+<!DOCTYPE html>
+
+<html lang="zxx">
+<head>
+    @Styles.Render("~/bundles/vendorcss")
+    <style>
+        .book-image {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .mybooks-container ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .mybooks-container li {
+            margin-right: 20px;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+        }
+
+            .mybooks-container li img {
+                width: 150px;
+                height: auto;
+                margin-right: 15px;
+            }
+
+            .mybooks-container li:hover img {
+                transform: scale(1.1);
+                transition: transform 0.2s ease;
+            }
+
+            
+        /* Header Styles */
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>My Library</header>
+    <!-- End Header -->
+    <!-- Main Content -->
+    <div id="content" class="site-content">
+        <div id="primary" class="content-area">
+            <main id="main" class="site-main">
+              
+                <div class="container mybooks-container">
+                    <h2>My Read Now Books</h2>
+                    <ul>
+                        @if (((IEnumerable<BookInfo>)Model.ReadNowBooks).Any())
+                        {
+                            foreach (var book in Model.ReadNowBooks)
+                            {
+                                <li>
+                                    <a href="@Url.Action("Details", "Books", new { id = book.BookId })">
+                                        <img src="~/images/coperta/@book.ImageUrl" alt="@book.Title" class="book-image">
+                                        @book.Title
+                                    </a>
+                                </li>
+                            }
+                        }
+                        else
+                        {
+                            <li>No books marked as Read Now.</li>
+                        }
+                    </ul>
+
+                    <h2>My Favorite Books</h2>
+                    <ul>
+                        @if (((IEnumerable<BookInfo>)Model.FavoritesBooks).Any())
+                        {
+                            foreach (var book in Model.FavoritesBooks)
+                            {
+                                <li>
+                                    <a href="@Url.Action("Details", "Books", new { id = book.BookId })">
+                                        <img src="~/images/coperta/@book.ImageUrl" alt="@book.Title" class="book-image">
+                                        @book.Title
+                                    </a>
+                                </li>
+                            }
+                        }
+                        else
+                        {
+                            <li>No books marked as favorites.</li>
+                        }
+                    </ul>
+                </div>
+            </main>
+        </div>
+    </div>
+    <!-- End Main Content -->
+    <!-- Footer -->
+    <footer id="footer">@Html.Partial("_Footer")</footer>
+    <!-- End Footer -->
+
+    @Scripts.Render("~/bundles/vendorjs")
+    @RenderBody();
+</body>
+</html>
