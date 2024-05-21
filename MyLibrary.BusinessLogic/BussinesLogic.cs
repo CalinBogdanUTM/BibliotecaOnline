@@ -9,5 +9,10 @@ namespace MyLibrary.BusinessLogic
           {
                return new SessionBL();
           }
+
+          public ISessionAdmin GetAdminSessionBL()
+          {
+               return new AdminSessionBL();
+          }
      }
 }

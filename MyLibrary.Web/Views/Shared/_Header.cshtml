@@ -1,0 +1,114 @@
+﻿@using MyLibrary.Web.Controllers
+@using MyLibrary.Web.Extension
+
+@{
+    ViewBag.Title = "_Header";
+}
+
+
+<link href="~/Vendor/css/profile.css" rel="stylesheet" />
+<!-- Start: Header Section -->
+<header id="header-v1" class="navbar-wrapper">
+    <div class="container">
+        <div class="row">
+            <nav class="navbar navbar-default">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="navbar-header">
+                            <div class="navbar-brand">
+                                <h1>
+                                    <a href="index-2.html">
+                                        <img src="~/Vendor/images/libraria-logo-v1.png" alt="MyLibrary" />
+                                    </a>
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-9">
+                        <!-- Header Topbar -->
+                        <div class="header-topbar hidden-sm hidden-xs">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="topbar-info">
+                                        <a href="tel:+61-3-8376-6284"><i class="fa fa-phone"></i>+61-3-8376-6284</a>
+                                        <span>/</span>
+                                        <a href="mailto:support@libraria.com">
+                                            <i class="fa fa-envelope"></i>support@libraria.com
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="topbar-links">
+                                        @if ((string)System.Web.HttpContext.Current.Session["LoginStatus"] == "login")
+                                        {
+                                            var user = System.Web.HttpContext.Current.GetMySessionObject();
+                                            var username = user?.Username;
+                                            if (!string.IsNullOrEmpty(username))
+                                            {
+                                                <div class="profile-dropdown">
+                                                    <div onclick="toggle()" class="profile-dropdown-btn">
+                                                        <div class="profile-img">
+                                                            <i class="fa-solid fa-circle"></i>
+                                                        </div>
+                                                        <span class="Username">@username</span>
+                                                    </div>
+
+                                                    <ul class="profile-dropdown-list">
+                                                        <li class="profile-dropdown-list-item">
+                                                            <a href="@Url.Action("MyBooks","Books")">
+                                                                <i class="fa-regular fa-envelope"></i>
+                                                                My Books
+                                                            </a>
+                                                        </li>
+                                                        <li class="profile-dropdown-list-item">
+                                                            <a href="/Contact">
+                                                                <i class="fa-regular fa-circle-question"></i>
+                                                                Help & Support
+                                                            </a>
+                                                        </li>
+                                                        <li class="profile-dropdown-list-item">
+                                                            <a href="@Url.Action("Logout", "Login")">
+                                                                <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                                                                Log out
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            }
+                                        }
+                                        else
+                                        {
+                                            <a href="@Url.Action("Index", "Login")"><i class="fa fa-lock"></i> Login / Register</a>
+                                        }
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="navbar-collapse hidden-sm hidden-xs">
+                            <ul class="nav navbar-nav">
+                                <li class="dropdown active">
+                                    <a data-toggle="dropdown" class="dropdown-toggle disabled"
+                                       href="/Home">Home</a>
+
+                                </li>
+                                <li class="dropdown">
+                                <a data-toggle="dropdown" class="dropdown-toggle disabled"
+                                   href="/Books">Books & Media</a>
+
+
+
+                                <li><a href="/Contact">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <script src="~/Vendor/js/profile.js"></script>
+            </nav>
+        </div>
+    </div>
+    
+    <script>
+        
+    </script>
+</header>
+<!-- End: Header Section -->

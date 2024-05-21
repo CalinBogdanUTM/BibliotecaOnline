@@ -1,0 +1,267 @@
+﻿@model MyLibrary.Domain.Entities.Book.BookInfo
+
+@{
+    ViewBag.Title = "Book Details";
+}
+
+<
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/bundles/vendorcss")
+    <link href="~/Vendor/css/dflip.min.css" rel="stylesheet" />
+    <link href="~/Vendor/css/themify-icons.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <style>
+        /* General styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Header styles */
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Book details styles */
+        .book-details {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 40px 0;
+        }
+
+        .book-image-container {
+            width: 30%;
+            margin-right: 40px;
+        }
+
+        .book-detail-image {
+            width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .book-info {
+            width: 60%;
+            font-size: 24px; /* Adjust the value as needed */
+        }
+
+            .book-info h2 {
+                font-size: 3rem; /* Increased from 2.5rem */
+                margin-bottom: 20px;
+            }
+
+            .book-info p {
+                font-size: 1.4rem; /* Increased from 1.2rem */
+                margin-bottom: 10px;
+            }
+
+        .actions {
+            padding: 20px;
+        }
+
+        .read-button,
+        .favorite-button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1.2rem; /* Increased from 1rem */
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+            .read-button:hover,
+            .favorite-button:hover {
+                background-color: #45a049;
+            }
+
+        /* Footer styles */
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .BookInfo {
+            font-size: 20px;
+        }
+
+        /* PDF Viewer styles */
+        #pdf-viewer {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            z-index: 9999;
+            display: none;
+        }
+
+        #pdf-canvas {
+            max-width: 100%;
+            max-height: 100%;
+            margin: auto;
+            display: block;
+        }
+
+        .pdf-controls {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            justify-content: center;
+        }
+
+            .pdf-controls button {
+                margin: 0 10px;
+                padding: 10px 20px;
+                font-size: 16px;
+            }
+
+        /* DFlip Viewer styles */
+        #dflip-viewer {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            z-index: 9999;
+            display: none;
+        }
+
+        .container {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Library</h1>
+    </header>
+
+    <div class="content-wrapper">
+        <div class="container1">
+            <div class="book-details">
+                <div class="book-image-container">
+                    <img src="~/images/coperta/@Model.ImageUrl" alt="@Model.Title" class="book-detail-image">
+                </div>
+                <div class="book-info">
+                    <p class="BookInfo"><strong class="BookInfo">Title:</strong> @Model.Title</p>
+                    <p class="BookInfo"><strong class="BookInfo">Author:</strong> @Model.Author</p>
+                    <p class="BookInfo"><strong class="BookInfo">Category:</strong> @Model.Category</p>
+                    <p class="BookInfo">@Model.Description</p>
+
+                    <div class="actions">
+                        <button class="read-button" id="readButton" onclick="openBook('@Model.SourceUrl')"><i class="fas fa-book-open"></i> Read</button>
+                        <button class="favorite-button" onclick="addToFavorites(@Model.BookId)">
+                            <i class="fas fa-heart"></i> Add to Favorites
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><footer>
+        @Html.Partial("_Footer")
+    </footer>
+
+    <!-- DFlip Viewer -->
+    <div id="dflip-viewer">
+        <div class="container">
+            <div class="col-xs-12">
+                <!-- DFlip Book -->
+                <div class="_df_book" height="500" webgl="true" backgroundcolor="teal"
+                     source="~/Vendor/book/book.pdf"
+                     id="df_manual_book">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    @Scripts.Render("~/bundles/vendorjs")
+    @RenderBody()
+
+    <script src="~/Vendor/js/libs/jquery.min.js"></script>
+    <script src="~/Vendor/js/dflip.min.js"></script>
+
+    <script>
+        // Function to open DFlip viewer when the "Read" button is clicked
+        function openBook(sourceUrl) {
+            // Get the book ID from your Model
+            var bookId = @Model.BookId;
+
+            // Send AJAX request to record interaction
+            $.ajax({
+                url: '@Url.Action("ReadNow", "Books")',
+                type: 'POST',
+                data: { bookId: bookId },
+                success: function (result) {
+                    if (result.success) {
+                        // Interaction recorded successfully, open the book
+                        $(".content-wrapper").hide();
+                        $("#dflip-viewer").show();
+                    } else {
+                        // Handle error (e.g., display an error message)
+                        console.error("Error recording Read Now interaction:", result.error);
+                        alert("An error occurred. Please try again.");
+                    }
+                },
+                error: function () {
+                    console.error("AJAX request failed.");
+                    alert("An error occurred. Please try again.");
+                }
+            });
+        }
+
+         // Function to open DFlip viewer when the "Read" button is clicked
+        function addToFavorites(sourceUrl) { 
+     // Get the book ID from your Model
+     var bookId = @Model.BookId;
+
+     // Send AJAX request to record interaction
+     $.ajax({
+         url: '@Url.Action("AddtoFavorites", "Books")',
+         type: 'POST',
+         data: { bookId: bookId },
+         success: function (result) {
+             if (result.success) {
+                
+             } else {
+                 // Handle error (e.g., display an error message)
+                 console.error("Error recording Favorites interaction:", result.error);
+                 alert("An error occurred. Please try again.");
+             }
+         },
+         error: function () {
+             console.error("AJAX request failed.");
+             alert("An error occurred. Please try again.");
+         }
+     });
+ }
+    </script>
+    
+
+
+    </body>
+</html>

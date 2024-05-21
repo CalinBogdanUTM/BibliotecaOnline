@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using MyLibrary.BusinessLogic.Interfaces;
 using System.Web;
+using MyLibrary.Domain.Entities.Book;
 
 namespace MyLibrary.BusinessLogic.Interfaces
 
@@ -18,5 +19,6 @@ namespace MyLibrary.BusinessLogic.Interfaces
          URegisterResp UserRegister(URegisterData data);
          HttpCookie GenCookie(string loginCredential);
          UserMinimal GetUserByCookie(string apiCookieValue);
+
     }
 }

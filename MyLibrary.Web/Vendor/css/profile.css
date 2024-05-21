@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap");
+
+.LoginRegister {
+
+    left : 50%;
+}
+
+:root {
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --secondary-light: #e9ecef;
+    --secondary-light-2: #f8f9fa;
+    --black: #343a40;
+    --white: #fff;
+    --shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    --shadow-hover: 0px 4px 8px rgba(0, 0, 0, 0.15);
+    --profile-bg: #f2f2f2; /* New: Similar color to profile button */
+}
+
+
+.profile-dropdown {
+    position: relative;
+    width: fit-content;
+}
+
+.profile-dropdown-btn {
+ margin-left:325px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    border-radius: 50px;
+    color: var(--black);
+    background-color: rosybrown;
+    box-shadow: var(--shadow);
+    cursor: pointer;
+    border: none;
+    transition: box-shadow 0.2s ease-in, background-color 0.2s ease-in;
+}
+
+    .profile-dropdown-btn:hover {
+        background-color: rosybrown;
+        opacity : 0.4;
+        box-shadow: var(--shadow-hover);
+    }
+
+.profile-img {
+    position: relative;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background-image: url('../images/who-we-are-image.jpg');
+    background-size: cover;
+}
+
+    /* Removed the green circle */
+    .profile-img i {
+        display: none;
+    }
+
+.profile-dropdown-btn span {
+    margin: 0 0.5rem;
+    margin-right: 0;
+}
+
+.profile-dropdown-list {
+    position: absolute;
+    margin-left: 140px;
+    top: 100%; /* Adjusted for better positioning */
+    right: 0;
+    width: 220px;
+    background-color: rosybrown;
+    border-radius: 10px;
+    max-height: 0;
+    overflow: hidden;
+    box-shadow: var(--shadow);
+    transition: max-height 0.5s;
+    z-index: 10; /* Ensures dropdown is above other elements */
+    left: 50%; /* For horizontal centering */
+    transform: translateX(-50%); /* For horizontal centering */
+    background-color: powderblue; /* Apply background to list items */
+}
+    .profile-dropdown-list hr {
+        border: 0.5px solid var(--secondary); /* Adjusted separator color */
+    }
+
+    .profile-dropdown-list.active {
+        max-height: 500px;
+    }
+
+.profile-dropdown-list-item {
+    padding: 0.5rem 1rem;
+    transition: background-color 0.2s ease-in, padding-left 0.2s;
+}
+
+    .profile-dropdown-list-item a {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        font-size: 0.9rem;
+        font-weight: 500;
+        color: var(--black);
+    }
+
+        .profile-dropdown-list-item a i {
+            margin-right: 0.8rem;
+            font-size: 1.1rem;
+            width: 2.3rem;
+            height: 2.3rem;
+            background-color: var(--secondary);
+            color: var(--white);
+            line-height: 2.3rem;
+            text-align: center;
+            margin-right: 1rem;
+            border-radius: 50%;
+            transition: margin-right 0.3s;
+        }
+
+    .profile-dropdown-list-item:hover {
+        padding-left: 1.5rem;
+        background-color: var(--secondary-light);
+    }
+
+.profile-dropdown-list hr {
+    display: none;
+}

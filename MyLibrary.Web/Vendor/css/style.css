@@ -58,6 +58,40 @@ Version: 1.0.0
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
+/* User Dropdown Styles */
+.topbar-links .dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.topbar-links .dropdown-toggle {
+    text-decoration: none;
+    color: inherit; /* Inherit color from topbar */
+    cursor: pointer;
+}
+
+.topbar-links .dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1; /* Ensure dropdown is on top */
+}
+
+    .topbar-links .dropdown-menu li {
+        padding: 10px 15px;
+    }
+
+        .topbar-links .dropdown-menu li a {
+            text-decoration: none;
+            color: #333;
+        }
+
+.topbar-links .dropdown:hover .dropdown-menu {
+    display: block;
+}
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;

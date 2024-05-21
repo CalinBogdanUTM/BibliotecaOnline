@@ -26,7 +26,7 @@ namespace MyLibrary.BusinessLogic.Core
                     var pass = LoginHelper.HashGen(data.Password);
                     using (var db = new UserContext())
                     {
-                         result = db.Users.FirstOrDefault(u => u.Email == data.Credential && u.Password == pass);
+                         result = db.Users.FirstOrDefault(u => u.Username == data.Credential || u.Email == data.Credential && u.Password == pass);
                     }
 
                     if (result == null)

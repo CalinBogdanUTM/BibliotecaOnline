@@ -3,40 +3,172 @@
   "WorkspaceRootPath": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|c:\\users\\denis\\source\\repos\\bibliotecaonline\\mylibrary.web\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|solutionrelative:mylibrary.web\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\mylibrary.web\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|solutionrelative:mylibrary.web\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\mylibrary.web\\views\\shared\\_layoutregister.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|solutionrelative:mylibrary.web\\views\\shared\\_layoutregister.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{82B6B11B-A11C-4DB9-AA49-BEF6A011932C}|MyLibrary.Domain\\MyLibrary.Domain.csproj|C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\mylibrary.domain\\entities\\book\\bookinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82B6B11B-A11C-4DB9-AA49-BEF6A011932C}|MyLibrary.Domain\\MyLibrary.Domain.csproj|solutionrelative:mylibrary.domain\\entities\\book\\bookinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|c:\\users\\denis\\source\\repos\\bibliotecaonline\\mylibrary.web\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|solutionrelative:mylibrary.web\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{82B6B11B-A11C-4DB9-AA49-BEF6A011932C}|MyLibrary.Domain\\MyLibrary.Domain.csproj|C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\mylibrary.domain\\entities\\book\\mybooksviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82B6B11B-A11C-4DB9-AA49-BEF6A011932C}|MyLibrary.Domain\\MyLibrary.Domain.csproj|solutionrelative:mylibrary.domain\\entities\\book\\mybooksviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|c:\\users\\denis\\source\\repos\\bibliotecaonline\\mylibrary.web\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|solutionrelative:mylibrary.web\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{15CC6D8E-6993-4266-91FB-16591A311446}|MyLibrary.BusinessLogic\\MyLibrary.BusinessLogic.csproj|C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\mylibrary.businesslogic\\bussineslogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15CC6D8E-6993-4266-91FB-16591A311446}|MyLibrary.BusinessLogic\\MyLibrary.BusinessLogic.csproj|solutionrelative:mylibrary.businesslogic\\bussineslogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\mylibrary.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|solutionrelative:mylibrary.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{15CC6D8E-6993-4266-91FB-16591A311446}|MyLibrary.BusinessLogic\\MyLibrary.BusinessLogic.csproj|C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\mylibrary.businesslogic\\mainbl\\adminsessionbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15CC6D8E-6993-4266-91FB-16591A311446}|MyLibrary.BusinessLogic\\MyLibrary.BusinessLogic.csproj|solutionrelative:mylibrary.businesslogic\\mainbl\\adminsessionbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CC6D8E-6993-4266-91FB-16591A311446}|MyLibrary.BusinessLogic\\MyLibrary.BusinessLogic.csproj|C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\mylibrary.businesslogic\\interfaces\\isessionadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15CC6D8E-6993-4266-91FB-16591A311446}|MyLibrary.BusinessLogic\\MyLibrary.BusinessLogic.csproj|solutionrelative:mylibrary.businesslogic\\interfaces\\isessionadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\mylibrary.web\\models\\adminviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|solutionrelative:mylibrary.web\\models\\adminviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CC6D8E-6993-4266-91FB-16591A311446}|MyLibrary.BusinessLogic\\MyLibrary.BusinessLogic.csproj|C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\mylibrary.businesslogic\\core\\adminapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15CC6D8E-6993-4266-91FB-16591A311446}|MyLibrary.BusinessLogic\\MyLibrary.BusinessLogic.csproj|solutionrelative:mylibrary.businesslogic\\core\\adminapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\mylibrary.web\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|solutionrelative:mylibrary.web\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\mylibrary.web\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|solutionrelative:mylibrary.web\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|c:\\users\\denis\\source\\repos\\bibliotecaonline\\mylibrary.web\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|solutionrelative:mylibrary.web\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\mylibrary.web\\views\\shared\\_layoutlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|solutionrelative:mylibrary.web\\views\\shared\\_layoutlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CC6D8E-6993-4266-91FB-16591A311446}|MyLibrary.BusinessLogic\\MyLibrary.BusinessLogic.csproj|C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\mylibrary.businesslogic\\dbmodel\\usercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15CC6D8E-6993-4266-91FB-16591A311446}|MyLibrary.BusinessLogic\\MyLibrary.BusinessLogic.csproj|solutionrelative:mylibrary.businesslogic\\dbmodel\\usercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CC6D8E-6993-4266-91FB-16591A311446}|MyLibrary.BusinessLogic\\MyLibrary.BusinessLogic.csproj|C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\mylibrary.businesslogic\\dbmodel\\userinteractioncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15CC6D8E-6993-4266-91FB-16591A311446}|MyLibrary.BusinessLogic\\MyLibrary.BusinessLogic.csproj|solutionrelative:mylibrary.businesslogic\\dbmodel\\userinteractioncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CC6D8E-6993-4266-91FB-16591A311446}|MyLibrary.BusinessLogic\\MyLibrary.BusinessLogic.csproj|C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\mylibrary.businesslogic\\dbmodel\\bookcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15CC6D8E-6993-4266-91FB-16591A311446}|MyLibrary.BusinessLogic\\MyLibrary.BusinessLogic.csproj|solutionrelative:mylibrary.businesslogic\\dbmodel\\bookcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82B6B11B-A11C-4DB9-AA49-BEF6A011932C}|MyLibrary.Domain\\MyLibrary.Domain.csproj|C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\mylibrary.domain\\entities\\user\\userinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82B6B11B-A11C-4DB9-AA49-BEF6A011932C}|MyLibrary.Domain\\MyLibrary.Domain.csproj|solutionrelative:mylibrary.domain\\entities\\user\\userinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82B6B11B-A11C-4DB9-AA49-BEF6A011932C}|MyLibrary.Domain\\MyLibrary.Domain.csproj|C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\mylibrary.domain\\entities\\user\\uregisterdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82B6B11B-A11C-4DB9-AA49-BEF6A011932C}|MyLibrary.Domain\\MyLibrary.Domain.csproj|solutionrelative:mylibrary.domain\\entities\\user\\uregisterdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\mylibrary.web\\models\\userreg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|solutionrelative:mylibrary.web\\models\\userreg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CC6D8E-6993-4266-91FB-16591A311446}|MyLibrary.BusinessLogic\\MyLibrary.BusinessLogic.csproj|C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\mylibrary.businesslogic\\mainbl\\sessionbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15CC6D8E-6993-4266-91FB-16591A311446}|MyLibrary.BusinessLogic\\MyLibrary.BusinessLogic.csproj|solutionrelative:mylibrary.businesslogic\\mainbl\\sessionbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CC6D8E-6993-4266-91FB-16591A311446}|MyLibrary.BusinessLogic\\MyLibrary.BusinessLogic.csproj|C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\mylibrary.businesslogic\\interfaces\\isession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15CC6D8E-6993-4266-91FB-16591A311446}|MyLibrary.BusinessLogic\\MyLibrary.BusinessLogic.csproj|solutionrelative:mylibrary.businesslogic\\interfaces\\isession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{15CC6D8E-6993-4266-91FB-16591A311446}|MyLibrary.BusinessLogic\\MyLibrary.BusinessLogic.csproj|C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\mylibrary.businesslogic\\core\\userapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{15CC6D8E-6993-4266-91FB-16591A311446}|MyLibrary.BusinessLogic\\MyLibrary.BusinessLogic.csproj|solutionrelative:mylibrary.businesslogic\\core\\userapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{15CC6D8E-6993-4266-91FB-16591A311446}|MyLibrary.BusinessLogic\\MyLibrary.BusinessLogic.csproj|C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\mylibrary.businesslogic\\migrations\\202404171153346_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{15CC6D8E-6993-4266-91FB-16591A311446}|MyLibrary.BusinessLogic\\MyLibrary.BusinessLogic.csproj|solutionrelative:mylibrary.businesslogic\\migrations\\202404171153346_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{82B6B11B-A11C-4DB9-AA49-BEF6A011932C}|MyLibrary.Domain\\MyLibrary.Domain.csproj|C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\mylibrary.domain\\entities\\user\\uemailresp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82B6B11B-A11C-4DB9-AA49-BEF6A011932C}|MyLibrary.Domain\\MyLibrary.Domain.csproj|solutionrelative:mylibrary.domain\\entities\\user\\uemailresp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{15CC6D8E-6993-4266-91FB-16591A311446}|MyLibrary.BusinessLogic\\MyLibrary.BusinessLogic.csproj|C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\mylibrary.businesslogic\\migrations\\202404171153346_initialcreate.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{15CC6D8E-6993-4266-91FB-16591A311446}|MyLibrary.BusinessLogic\\MyLibrary.BusinessLogic.csproj|solutionrelative:mylibrary.businesslogic\\migrations\\202404171153346_initialcreate.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{82B6B11B-A11C-4DB9-AA49-BEF6A011932C}|MyLibrary.Domain\\MyLibrary.Domain.csproj|C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\mylibrary.domain\\entities\\user\\uloginresp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82B6B11B-A11C-4DB9-AA49-BEF6A011932C}|MyLibrary.Domain\\MyLibrary.Domain.csproj|solutionrelative:mylibrary.domain\\entities\\user\\uloginresp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82B6B11B-A11C-4DB9-AA49-BEF6A011932C}|MyLibrary.Domain\\MyLibrary.Domain.csproj|C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\mylibrary.domain\\entities\\book\\baddresp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82B6B11B-A11C-4DB9-AA49-BEF6A011932C}|MyLibrary.Domain\\MyLibrary.Domain.csproj|solutionrelative:mylibrary.domain\\entities\\book\\baddresp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\mylibrary.web\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|solutionrelative:mylibrary.web\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82B6B11B-A11C-4DB9-AA49-BEF6A011932C}|MyLibrary.Domain\\MyLibrary.Domain.csproj|C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\mylibrary.domain\\entities\\user\\userminimal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82B6B11B-A11C-4DB9-AA49-BEF6A011932C}|MyLibrary.Domain\\MyLibrary.Domain.csproj|solutionrelative:mylibrary.domain\\entities\\user\\userminimal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{82B6B11B-A11C-4DB9-AA49-BEF6A011932C}|MyLibrary.Domain\\MyLibrary.Domain.csproj|C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\mylibrary.domain\\entities\\user\\udbtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{82B6B11B-A11C-4DB9-AA49-BEF6A011932C}|MyLibrary.Domain\\MyLibrary.Domain.csproj|solutionrelative:mylibrary.domain\\entities\\user\\udbtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\mylibrary.web\\models\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|solutionrelative:mylibrary.web\\models\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\mylibrary.web\\models\\userdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|solutionrelative:mylibrary.web\\models\\userdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\mylibrary.web\\views\\shared\\_layoutregister.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|solutionrelative:mylibrary.web\\views\\shared\\_layoutregister.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\mylibrary.web\\views\\shared\\_layoutbooks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|solutionrelative:mylibrary.web\\views\\shared\\_layoutbooks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82B6B11B-A11C-4DB9-AA49-BEF6A011932C}|MyLibrary.Domain\\MyLibrary.Domain.csproj|C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\mylibrary.domain\\entities\\book\\uaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82B6B11B-A11C-4DB9-AA49-BEF6A011932C}|MyLibrary.Domain\\MyLibrary.Domain.csproj|solutionrelative:mylibrary.domain\\entities\\book\\uaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\mylibrary.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|solutionrelative:mylibrary.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CC6D8E-6993-4266-91FB-16591A311446}|MyLibrary.BusinessLogic\\MyLibrary.BusinessLogic.csproj|C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\mylibrary.businesslogic\\dbmodel\\sessioncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15CC6D8E-6993-4266-91FB-16591A311446}|MyLibrary.BusinessLogic\\MyLibrary.BusinessLogic.csproj|solutionrelative:mylibrary.businesslogic\\dbmodel\\sessioncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82B6B11B-A11C-4DB9-AA49-BEF6A011932C}|MyLibrary.Domain\\MyLibrary.Domain.csproj|C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\mylibrary.domain\\entities\\user\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82B6B11B-A11C-4DB9-AA49-BEF6A011932C}|MyLibrary.Domain\\MyLibrary.Domain.csproj|solutionrelative:mylibrary.domain\\entities\\user\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CC6D8E-6993-4266-91FB-16591A311446}|MyLibrary.BusinessLogic\\MyLibrary.BusinessLogic.csproj|C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\mylibrary.businesslogic\\migrations\\usercontext\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15CC6D8E-6993-4266-91FB-16591A311446}|MyLibrary.BusinessLogic\\MyLibrary.BusinessLogic.csproj|solutionrelative:mylibrary.businesslogic\\migrations\\usercontext\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\mylibrary.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|solutionrelative:mylibrary.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\mylibrary.web\\views\\shared\\_layoutcontact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|solutionrelative:mylibrary.web\\views\\shared\\_layoutcontact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CC6D8E-6993-4266-91FB-16591A311446}|MyLibrary.BusinessLogic\\MyLibrary.BusinessLogic.csproj|C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\mylibrary.businesslogic\\migrations\\bookcontext\\bookconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15CC6D8E-6993-4266-91FB-16591A311446}|MyLibrary.BusinessLogic\\MyLibrary.BusinessLogic.csproj|solutionrelative:mylibrary.businesslogic\\migrations\\bookcontext\\bookconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\mylibrary.web\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|solutionrelative:mylibrary.web\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\mylibrary.web\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|solutionrelative:mylibrary.web\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\mylibrary.web\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
@@ -55,30 +187,421 @@
       "RelativeMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|solutionrelative:mylibrary.web\\views\\shared\\_layoutmoderator.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\mylibrary.web\\views\\shared\\_layoutlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|solutionrelative:mylibrary.web\\views\\shared\\_layoutlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\mylibrary.businesslogic\\migrations\\202404171153346_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:mylibrary.businesslogic\\migrations\\202404171153346_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\mylibrary.web\\views\\shared\\_layoutcontact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|solutionrelative:mylibrary.web\\views\\shared\\_layoutcontact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\mylibrary.web\\views\\shared\\_layoutbooks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|solutionrelative:mylibrary.web\\views\\shared\\_layoutbooks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.BusinessLogic\\Migrations\\202404171153346_InitialCreate.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MyLibrary.BusinessLogic\\Migrations\\202404171153346_InitialCreate.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 282,
+      "VerticalTabListWidth": 100,
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 22,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.Web\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "MyLibrary.Web\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.Web\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "MyLibrary.Web\\Controllers\\LoginController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T17:14:03.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserInteractionContext.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.BusinessLogic\\DBModel\\UserInteractionContext.cs",
+              "RelativeDocumentMoniker": "MyLibrary.BusinessLogic\\DBModel\\UserInteractionContext.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.BusinessLogic\\DBModel\\UserInteractionContext.cs",
+              "RelativeToolTip": "MyLibrary.BusinessLogic\\DBModel\\UserInteractionContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T17:40:30.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ISessionAdmin.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.BusinessLogic\\Interfaces\\ISessionAdmin.cs",
+              "RelativeDocumentMoniker": "MyLibrary.BusinessLogic\\Interfaces\\ISessionAdmin.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.BusinessLogic\\Interfaces\\ISessionAdmin.cs",
+              "RelativeToolTip": "MyLibrary.BusinessLogic\\Interfaces\\ISessionAdmin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T16:21:52.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdminSessionBL.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.BusinessLogic\\MainBL\\AdminSessionBL.cs",
+              "RelativeDocumentMoniker": "MyLibrary.BusinessLogic\\MainBL\\AdminSessionBL.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.BusinessLogic\\MainBL\\AdminSessionBL.cs",
+              "RelativeToolTip": "MyLibrary.BusinessLogic\\MainBL\\AdminSessionBL.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T16:13:38.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "UEmailResp.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.Domain\\Entities\\User\\UEmailResp.cs",
+              "RelativeDocumentMoniker": "MyLibrary.Domain\\Entities\\User\\UEmailResp.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.Domain\\Entities\\User\\UEmailResp.cs",
+              "RelativeToolTip": "MyLibrary.Domain\\Entities\\User\\UEmailResp.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T15:53:37.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ULoginResp.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.Domain\\Entities\\User\\ULoginResp.cs",
+              "RelativeDocumentMoniker": "MyLibrary.Domain\\Entities\\User\\ULoginResp.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.Domain\\Entities\\User\\ULoginResp.cs",
+              "RelativeToolTip": "MyLibrary.Domain\\Entities\\User\\ULoginResp.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T15:39:55.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "BAddResp.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.Domain\\Entities\\Book\\BAddResp.cs",
+              "RelativeDocumentMoniker": "MyLibrary.Domain\\Entities\\Book\\BAddResp.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.Domain\\Entities\\Book\\BAddResp.cs",
+              "RelativeToolTip": "MyLibrary.Domain\\Entities\\Book\\BAddResp.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T15:39:48.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AdminViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.Web\\Models\\AdminViewModel.cs",
+              "RelativeDocumentMoniker": "MyLibrary.Web\\Models\\AdminViewModel.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.Web\\Models\\AdminViewModel.cs",
+              "RelativeToolTip": "MyLibrary.Web\\Models\\AdminViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T19:35:28.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UserReg.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.Web\\Models\\UserReg.cs",
+              "RelativeDocumentMoniker": "MyLibrary.Web\\Models\\UserReg.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.Web\\Models\\UserReg.cs",
+              "RelativeToolTip": "MyLibrary.Web\\Models\\UserReg.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T19:31:23.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UserInteraction.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.Domain\\Entities\\User\\UserInteraction.cs",
+              "RelativeDocumentMoniker": "MyLibrary.Domain\\Entities\\User\\UserInteraction.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.Domain\\Entities\\User\\UserInteraction.cs",
+              "RelativeToolTip": "MyLibrary.Domain\\Entities\\User\\UserInteraction.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T19:27:03.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UserMinimal.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.Domain\\Entities\\User\\UserMinimal.cs",
+              "RelativeDocumentMoniker": "MyLibrary.Domain\\Entities\\User\\UserMinimal.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.Domain\\Entities\\User\\UserMinimal.cs",
+              "RelativeToolTip": "MyLibrary.Domain\\Entities\\User\\UserMinimal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T19:26:56.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserContext.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.BusinessLogic\\DBModel\\UserContext.cs",
+              "RelativeDocumentMoniker": "MyLibrary.BusinessLogic\\DBModel\\UserContext.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.BusinessLogic\\DBModel\\UserContext.cs",
+              "RelativeToolTip": "MyLibrary.BusinessLogic\\DBModel\\UserContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T16:27:24.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "SessionContext.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.BusinessLogic\\DBModel\\SessionContext.cs",
+              "RelativeDocumentMoniker": "MyLibrary.BusinessLogic\\DBModel\\SessionContext.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.BusinessLogic\\DBModel\\SessionContext.cs",
+              "RelativeToolTip": "MyLibrary.BusinessLogic\\DBModel\\SessionContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T16:27:23.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BookContext.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.BusinessLogic\\DBModel\\BookContext.cs",
+              "RelativeDocumentMoniker": "MyLibrary.BusinessLogic\\DBModel\\BookContext.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.BusinessLogic\\DBModel\\BookContext.cs",
+              "RelativeToolTip": "MyLibrary.BusinessLogic\\DBModel\\BookContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBAAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T16:13:13.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Session.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.Domain\\Entities\\User\\Session.cs",
+              "RelativeDocumentMoniker": "MyLibrary.Domain\\Entities\\User\\Session.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.Domain\\Entities\\User\\Session.cs",
+              "RelativeToolTip": "MyLibrary.Domain\\Entities\\User\\Session.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T16:17:31.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BussinesLogic.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.BusinessLogic\\BussinesLogic.cs",
+              "RelativeDocumentMoniker": "MyLibrary.BusinessLogic\\BussinesLogic.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.BusinessLogic\\BussinesLogic.cs",
+              "RelativeToolTip": "MyLibrary.BusinessLogic\\BussinesLogic.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T16:16:40.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ISession.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.BusinessLogic\\Interfaces\\ISession.cs",
+              "RelativeDocumentMoniker": "MyLibrary.BusinessLogic\\Interfaces\\ISession.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.BusinessLogic\\Interfaces\\ISession.cs",
+              "RelativeToolTip": "MyLibrary.BusinessLogic\\Interfaces\\ISession.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBIAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T16:13:36.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "SessionBL.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.BusinessLogic\\MainBL\\SessionBL.cs",
+              "RelativeDocumentMoniker": "MyLibrary.BusinessLogic\\MainBL\\SessionBL.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.BusinessLogic\\MainBL\\SessionBL.cs",
+              "RelativeToolTip": "MyLibrary.BusinessLogic\\MainBL\\SessionBL.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T16:06:36.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "URegisterData.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.Domain\\Entities\\User\\URegisterData.cs",
+              "RelativeDocumentMoniker": "MyLibrary.Domain\\Entities\\User\\URegisterData.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.Domain\\Entities\\User\\URegisterData.cs",
+              "RelativeToolTip": "MyLibrary.Domain\\Entities\\User\\URegisterData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T15:42:48.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "UserLogin.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.Web\\Models\\UserLogin.cs",
+              "RelativeDocumentMoniker": "MyLibrary.Web\\Models\\UserLogin.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.Web\\Models\\UserLogin.cs",
+              "RelativeToolTip": "MyLibrary.Web\\Models\\UserLogin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T16:02:33.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "UserData.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.Web\\Models\\UserData.cs",
+              "RelativeDocumentMoniker": "MyLibrary.Web\\Models\\UserData.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.Web\\Models\\UserData.cs",
+              "RelativeToolTip": "MyLibrary.Web\\Models\\UserData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T16:02:24.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AdminAPI.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.BusinessLogic\\Core\\AdminAPI.cs",
+              "RelativeDocumentMoniker": "MyLibrary.BusinessLogic\\Core\\AdminAPI.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.BusinessLogic\\Core\\AdminAPI.cs",
+              "RelativeToolTip": "MyLibrary.BusinessLogic\\Core\\AdminAPI.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAgwCgAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T13:57:36.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.Web\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "MyLibrary.Web\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.Web\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "MyLibrary.Web\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAAEkAAAAAAAAAAADwv30AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T13:29:55.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ContactController.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.Web\\Controllers\\ContactController.cs",
+              "RelativeDocumentMoniker": "MyLibrary.Web\\Controllers\\ContactController.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.Web\\Controllers\\ContactController.cs",
+              "RelativeToolTip": "MyLibrary.Web\\Controllers\\ContactController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T13:16:15.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "UserConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.BusinessLogic\\Migrations\\UserContext\\UserConfiguration.cs",
+              "RelativeDocumentMoniker": "MyLibrary.BusinessLogic\\Migrations\\UserContext\\UserConfiguration.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.BusinessLogic\\Migrations\\UserContext\\UserConfiguration.cs",
+              "RelativeToolTip": "MyLibrary.BusinessLogic\\Migrations\\UserContext\\UserConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T09:30:39.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.Web\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "MyLibrary.Web\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.Web\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "MyLibrary.Web\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T09:20:50.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.Web\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "MyLibrary.Web\\Controllers\\BooksController.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.Web\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "MyLibrary.Web\\Controllers\\BooksController.cs",
+              "ViewState": "AQIAAIgAAAAAAAAAAAAkwA8AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T09:20:36.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BaseController.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.Web\\Controllers\\BaseController.cs",
+              "RelativeDocumentMoniker": "MyLibrary.Web\\Controllers\\BaseController.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.Web\\Controllers\\BaseController.cs",
+              "RelativeToolTip": "MyLibrary.Web\\Controllers\\BaseController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T09:20:32.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "BookConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.BusinessLogic\\Migrations\\BookContext\\BookConfiguration.cs",
+              "RelativeDocumentMoniker": "MyLibrary.BusinessLogic\\Migrations\\BookContext\\BookConfiguration.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.BusinessLogic\\Migrations\\BookContext\\BookConfiguration.cs",
+              "RelativeToolTip": "MyLibrary.BusinessLogic\\Migrations\\BookContext\\BookConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T09:20:07.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "UAction.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.Domain\\Entities\\Book\\UAction.cs",
+              "RelativeDocumentMoniker": "MyLibrary.Domain\\Entities\\Book\\UAction.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.Domain\\Entities\\Book\\UAction.cs",
+              "RelativeToolTip": "MyLibrary.Domain\\Entities\\Book\\UAction.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T09:19:58.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MyBooksViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.Domain\\Entities\\Book\\MyBooksViewModel.cs",
+              "RelativeDocumentMoniker": "MyLibrary.Domain\\Entities\\Book\\MyBooksViewModel.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.Domain\\Entities\\Book\\MyBooksViewModel.cs",
+              "RelativeToolTip": "MyLibrary.Domain\\Entities\\Book\\MyBooksViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T09:19:55.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "BookInfo.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.Domain\\Entities\\Book\\BookInfo.cs",
+              "RelativeDocumentMoniker": "MyLibrary.Domain\\Entities\\Book\\BookInfo.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.Domain\\Entities\\Book\\BookInfo.cs",
+              "RelativeToolTip": "MyLibrary.Domain\\Entities\\Book\\BookInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T09:19:51.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.Web\\Views\\Admin\\Index.cshtml",
               "RelativeDocumentMoniker": "MyLibrary.Web\\Views\\Admin\\Index.cshtml",
@@ -86,24 +609,23 @@
               "RelativeToolTip": "MyLibrary.Web\\Views\\Admin\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-15T15:08:14.928Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-15T15:08:14.928Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 37,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.Web\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "MyLibrary.Web\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.Web\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "MyLibrary.Web\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAABNAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABcAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-05-08T17:32:03.608Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 46,
               "Title": "202404171153346_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.BusinessLogic\\Migrations\\202404171153346_InitialCreate.cs",
               "RelativeDocumentMoniker": "MyLibrary.BusinessLogic\\Migrations\\202404171153346_InitialCreate.cs",
@@ -115,7 +637,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 47,
               "Title": "202404171153346_InitialCreate.Designer.cs",
               "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.BusinessLogic\\Migrations\\202404171153346_InitialCreate.Designer.cs",
               "RelativeDocumentMoniker": "MyLibrary.BusinessLogic\\Migrations\\202404171153346_InitialCreate.Designer.cs",
@@ -127,19 +649,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 21,
               "Title": "UserAPI.cs",
               "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.BusinessLogic\\Core\\UserAPI.cs",
               "RelativeDocumentMoniker": "MyLibrary.BusinessLogic\\Core\\UserAPI.cs",
               "ToolTip": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.BusinessLogic\\Core\\UserAPI.cs",
               "RelativeToolTip": "MyLibrary.BusinessLogic\\Core\\UserAPI.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAIAwwCgAAAA8AAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABUAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-08T14:38:31.03Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 42,
               "Title": "Web.config",
               "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.Web\\Views\\Web.config",
               "RelativeDocumentMoniker": "MyLibrary.Web\\Views\\Web.config",
@@ -151,7 +673,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 27,
               "Title": "UDbTable.cs",
               "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.Domain\\Entities\\User\\UDbTable.cs",
               "RelativeDocumentMoniker": "MyLibrary.Domain\\Entities\\User\\UDbTable.cs",
@@ -163,20 +685,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 40,
               "Title": "Web.config",
               "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.Web\\Web.config",
               "RelativeDocumentMoniker": "MyLibrary.Web\\Web.config",
               "ToolTip": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.Web\\Web.config",
               "RelativeToolTip": "MyLibrary.Web\\Web.config",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAwAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
               "WhenOpened": "2024-05-08T14:32:04.062Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 43,
               "Title": "AssemblyInfo.cs",
               "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.Domain\\Properties\\AssemblyInfo.cs",
               "RelativeDocumentMoniker": "MyLibrary.Domain\\Properties\\AssemblyInfo.cs",
@@ -188,7 +710,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 44,
               "Title": "Error.cshtml",
               "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.Web\\Views\\Shared\\Error.cshtml",
               "RelativeDocumentMoniker": "MyLibrary.Web\\Views\\Shared\\Error.cshtml",
@@ -200,20 +722,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 30,
               "Title": "_LayoutRegister.cshtml",
               "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.Web\\Views\\Shared\\_LayoutRegister.cshtml",
               "RelativeDocumentMoniker": "MyLibrary.Web\\Views\\Shared\\_LayoutRegister.cshtml",
               "ToolTip": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.Web\\Views\\Shared\\_LayoutRegister.cshtml",
               "RelativeToolTip": "MyLibrary.Web\\Views\\Shared\\_LayoutRegister.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAA9AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-07T15:24:35.786Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-07T15:24:35.786Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 45,
               "Title": "_LayoutModerator.cshtml",
               "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.Web\\Views\\Shared\\_LayoutModerator.cshtml",
               "RelativeDocumentMoniker": "MyLibrary.Web\\Views\\Shared\\_LayoutModerator.cshtml",
@@ -225,7 +746,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "_LayoutLogin.cshtml",
               "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.Web\\Views\\Shared\\_LayoutLogin.cshtml",
               "RelativeDocumentMoniker": "MyLibrary.Web\\Views\\Shared\\_LayoutLogin.cshtml",
@@ -237,7 +758,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 38,
               "Title": "_LayoutContact.cshtml",
               "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.Web\\Views\\Shared\\_LayoutContact.cshtml",
               "RelativeDocumentMoniker": "MyLibrary.Web\\Views\\Shared\\_LayoutContact.cshtml",
@@ -249,26 +770,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "_LayoutAdmin.cshtml",
               "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.Web\\Views\\Shared\\_LayoutAdmin.cshtml",
               "RelativeDocumentMoniker": "MyLibrary.Web\\Views\\Shared\\_LayoutAdmin.cshtml",
               "ToolTip": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.Web\\Views\\Shared\\_LayoutAdmin.cshtml",
               "RelativeToolTip": "MyLibrary.Web\\Views\\Shared\\_LayoutAdmin.cshtml",
-              "ViewState": "AQIAAF0AAAAAAAAAAAAAAHwAAAANAAAA",
+              "ViewState": "AQIAAN4AAAAAAAAAAAAkwBcBAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-05-07T15:24:27.211Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 31,
               "Title": "_LayoutBooks.cshtml",
               "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.Web\\Views\\Shared\\_LayoutBooks.cshtml",
               "RelativeDocumentMoniker": "MyLibrary.Web\\Views\\Shared\\_LayoutBooks.cshtml",
               "ToolTip": "C:\\Users\\denis\\source\\repos\\BibliotecaOnline\\MyLibrary.Web\\Views\\Shared\\_LayoutBooks.cshtml",
               "RelativeToolTip": "MyLibrary.Web\\Views\\Shared\\_LayoutBooks.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHUAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-05-07T15:24:17.517Z"
             }
