@@ -156,6 +156,7 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="images\logo21.png" />
     <Content Include="images\blog\about-author.jpg" />
     <Content Include="images\blog\blog-01.jpg" />
     <Content Include="images\blog\blog-02.jpg" />
@@ -366,6 +367,7 @@
     <Content Include="Vendor\fonts\glyphicons-halflings-regular.html" />
     <Content Include="Vendor\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Vendor\fonts\themify.svg" />
+    <Content Include="Vendor\images\1e71ef73-caff-4bb6-a82d-49eae5b589d6.jpg" />
     <Content Include="Vendor\images\blog\about-author.jpg" />
     <Content Include="Vendor\images\blog\blog-01.jpg" />
     <Content Include="Vendor\images\blog\blog-02.jpg" />
