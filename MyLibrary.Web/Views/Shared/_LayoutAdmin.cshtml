@@ -1,10 +1,304 @@
-﻿<!DOCTYPE html>
-<html>
+﻿@model MyLibrary.Web.Models.AdminViewModel
+
+<!DOCTYPE html>
+<html lang="ro">
 <head>
-     <title>Admin Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Biblioteca Online</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .form-section, .list-section {
+            background-color: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .form-section h2, .list-section h2 {
+            margin-top: 0;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .form-group input, .form-group textarea, .form-group select {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+        }
+
+        .form-group button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        .form-group button:hover {
+            background-color: #45a049;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        .book-image {
+            width: 100px;
+            height: auto;
+        }
+    </style>
 </head>
+
+
 <body>
-     <h1>Admin Page</h1>
-     @RenderBody();
+<header>
+    <h1>Admin Biblioteca Online</h1>
+</header>
+
+    <div class="container">
+        <!-- Form pentru adăugarea unei noi cărți -->
+        <div class="form-section">
+            <h2>Adaugă o carte nouă</h2>
+            @using (Html.BeginForm("AddBook", "Admin", FormMethod.Post))
+            {
+                @Html.AntiForgeryToken()
+                <div class="form-group">
+                    @Html.LabelFor(m => m.AddBook.Title)
+                    @Html.TextBoxFor(m => m.AddBook.Title, new { placeholder = "Titlu", required = "required" })
+                    @Html.ValidationMessageFor(m => m.AddBook.Title)
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(m => m.AddBook.Author)
+                    @Html.TextBoxFor(m => m.AddBook.Author, new { placeholder = "Autor", required = "required" })
+                    @Html.ValidationMessageFor(m => m.AddBook.Author)
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(m => m.AddBook.Description)
+                    @Html.TextAreaFor(m => m.AddBook.Description, new { placeholder = "Descriere", required = "required" })
+                    @Html.ValidationMessageFor(m => m.AddBook.Description)
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(m => m.AddBook.ImageUrl)
+                    @Html.TextBoxFor(m => m.AddBook.ImageUrl, new { placeholder = "Numele imaginii pentru copertă", required = "required" })
+                    @Html.ValidationMessageFor(m => m.AddBook.ImageUrl)
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(m => m.AddBook.PublishingDate)
+                    @Html.TextBoxFor(m => m.AddBook.PublishingDate, "{0:yyyy-MM-dd}", new { placeholder = "Data publicării", required = "required" })
+                    @Html.ValidationMessageFor(m => m.AddBook.PublishingDate)
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(m => m.AddBook.Language)
+                    @Html.TextBoxFor(m => m.AddBook.Language, new { placeholder = "Limbă", required = "required" })
+                    @Html.ValidationMessageFor(m => m.AddBook.Language)
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(m => m.AddBook.Category)
+                    @Html.TextBoxFor(m => m.AddBook.Category, new { placeholder = "Categorie", required = "required" })
+                    @Html.ValidationMessageFor(m => m.AddBook.Category)
+                </div>
+                <div class="form-group">
+                    <button type="submit">Adaugă cartea</button>
+                </div>
+            }
+        </div>
+
+        <!-- Form pentru editarea unei cărți existente -->
+        <div class="form-section">
+            <h2>Editează o carte</h2>
+            @using (Html.BeginForm("UpdateBook", "Admin", FormMethod.Post))
+            {
+                @Html.AntiForgeryToken()
+                <div class="form-group">
+                    @Html.LabelFor(m => m.EditBook.BookId)
+                    @Html.TextBoxFor(m => m.EditBook.BookId, new {  placeholder = "BookId" })
+                    @Html.ValidationMessageFor(m => m.EditBook.BookId)
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(m => m.EditBook.Title)
+                    @Html.TextBoxFor(m => m.EditBook.Title, new { placeholder = "Titlu" })
+                    @Html.ValidationMessageFor(m => m.EditBook.Title)
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(m => m.EditBook.Author)
+                    @Html.TextBoxFor(m => m.EditBook.Author, new { placeholder = "Autor" })
+                    @Html.ValidationMessageFor(m => m.EditBook.Author)
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(m => m.EditBook.Description)
+                    @Html.TextAreaFor(m => m.EditBook.Description, new { placeholder = "Descriere" })
+                    @Html.ValidationMessageFor(m => m.EditBook.Description)
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(m => m.EditBook.ImageUrl)
+                    @Html.TextBoxFor(m => m.EditBook.ImageUrl, new { placeholder = "Numele imaginii pentru copertă" })
+                    @Html.ValidationMessageFor(m => m.EditBook.ImageUrl)
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(m => m.EditBook.PublishingDate)
+                    @Html.TextBoxFor(m => m.EditBook.PublishingDate, "{0:yyyy-MM-dd}", new { placeholder = "Data publicării" })
+                    @Html.ValidationMessageFor(m => m.EditBook.PublishingDate)
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(m => m.EditBook.Language)
+                    @Html.TextBoxFor(m => m.EditBook.Language, new { placeholder = "Limbă" })
+                    @Html.ValidationMessageFor(m => m.EditBook.Language)
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(m => m.EditBook.Category)
+                    @Html.TextBoxFor(m => m.EditBook.Category, new { placeholder = "Categorie" })
+                    @Html.ValidationMessageFor(m => m.EditBook.Category)
+                </div>
+                <div class="form-group">
+                    <button type="submit">Editează cartea</button>
+                </div>
+            }
+        </div>
+
+        <!-- Form pentru schimbarea email-ului unui utilizator -->
+        <div class="form-section">
+            <h2>Schimbă email-ul unui utilizator</h2>
+            @using (Html.BeginForm("UpdateUserEmail", "Admin", FormMethod.Post))
+            {
+                @Html.AntiForgeryToken()
+                <div class="form-group">
+                    @Html.LabelFor(m => m.emailChange.Id)
+                    @Html.TextBoxFor(m => m.emailChange.Id, new { placeholder = "UserId" })
+                    @Html.ValidationMessageFor(m => m.emailChange.Id)
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(m => m.emailChange.Email)
+                    @Html.TextBoxFor(m => m.emailChange.Email, new { placeholder = "Email nou", required = "required" })
+                    @Html.ValidationMessageFor(m => m.emailChange.Email)
+                </div>
+                <div class="form-group">
+                    <button type="submit">Schimba email-ul</button>
+                </div>
+            }
+        </div>
+
+        <!-- Listă cu toți utilizatorii -->
+        <!--<div class="list-section">
+            <h2>Lista utilizatorilor</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nume</th>
+                        <th>Email</th>
+                    </tr>
+                </thead>
+                <tbody id="userList">
+                    @if (Model.Users != null && Model.Users.Any())
+                    {
+                        foreach (var user in Model.Users)
+                        {
+                            <tr>
+                                <td>@user.Id</td>
+                                <td>@user.Username</td>
+                                <td>@user.Email</td>
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="3">Nu există utilizatori disponibili.</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>-->
+
+        <!-- Listă cu toate cărțile -->
+        <div class="list-section">
+            <h2>Lista cărților</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Titlu</th>
+                        <th>Autor</th>
+                        <th>Descriere</th>
+                        <th>Imagine Copertă</th>
+                        <th>Data Publicării</th>
+                        <th>Limbă</th>
+                        <th>Categorie</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model.Books != null && Model.Books.Any())
+                    {
+                        foreach (var book in Model.Books)
+                        {
+                            <tr>
+                                <td>@book.BookId</td>
+                                <td>@book.Title</td>
+                                <td>@book.Author</td>
+                                <td>@book.Description</td>
+                                <td><img src="~/images/coperta/@book.ImageUrl" alt="@book.Title" class="book-image"></td>
+                                <td>@book.PublishingDate.ToString("yyyy-MM-dd")</td>
+                                <td>@book.Language</td>
+                                <td>@book.Category</td>
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="8">Nu există cărți disponibile.</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script>
+
+    </script>
+    @RenderBody();
 </body>
 </html>

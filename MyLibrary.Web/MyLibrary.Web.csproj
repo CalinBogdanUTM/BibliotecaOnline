@@ -132,6 +132,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\UserData.cs" />
+    <Compile Include="Models\AdminViewModel.cs" />
     <Compile Include="Models\UserLogin.cs" />
     <Compile Include="Models\UserReg.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

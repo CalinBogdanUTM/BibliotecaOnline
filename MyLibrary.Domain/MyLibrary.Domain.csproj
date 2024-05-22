@@ -70,11 +70,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="Entities\Book\BAddResp.cs" />
     <Compile Include="Entities\Book\BookInfo.cs" />
     <Compile Include="Entities\Book\MyBooksViewModel.cs" />
     <Compile Include="Entities\Book\UAction.cs" />
     <Compile Include="Entities\User\Session.cs" />
     <Compile Include="Entities\User\UDbTable.cs" />
+    <Compile Include="Entities\User\UEmailResp.cs" />
     <Compile Include="Entities\User\ULoginData.cs" />
     <Compile Include="Entities\User\ULoginResp.cs" />
     <Compile Include="Entities\User\URegisterData.cs" />

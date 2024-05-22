@@ -82,6 +82,8 @@
     <Compile Include="DBModel\UserContext.cs" />
     <Compile Include="DBModel\UserInteractionContext.cs" />
     <Compile Include="Interfaces\ISession.cs" />
+    <Compile Include="Interfaces\ISessionAdmin.cs" />
+    <Compile Include="MainBL\AdminSessionBL.cs" />
     <Compile Include="MainBL\SessionBL.cs" />
     <Compile Include="Migrations\BookContext\202405092100512_InitialCreateBook.cs" />
     <Compile Include="Migrations\BookContext\202405092100512_InitialCreateBook.Designer.cs">
