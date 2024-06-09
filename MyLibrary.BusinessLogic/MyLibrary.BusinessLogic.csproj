@@ -85,9 +85,9 @@
     <Compile Include="Interfaces\ISessionAdmin.cs" />
     <Compile Include="MainBL\AdminSessionBL.cs" />
     <Compile Include="MainBL\SessionBL.cs" />
-    <Compile Include="Migrations\BookContext\202405092100512_InitialCreateBook.cs" />
-    <Compile Include="Migrations\BookContext\202405092100512_InitialCreateBook.Designer.cs">
-      <DependentUpon>202405092100512_InitialCreateBook.cs</DependentUpon>
+    <Compile Include="Migrations\BookContext\202406061525140_InitialCreate.cs" />
+    <Compile Include="Migrations\BookContext\202406061525140_InitialCreate.Designer.cs">
+      <DependentUpon>202406061525140_InitialCreate.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\BookContext\BookConfiguration.cs" />
     <Compile Include="Migrations\SessionContext\202405141849339_InitialCreateSession.cs" />
@@ -95,9 +95,9 @@
       <DependentUpon>202405141849339_InitialCreateSession.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\SessionContext\SessionConfiguration.cs" />
-    <Compile Include="Migrations\UserContext\202405092019589_InitialCreateUser.cs" />
-    <Compile Include="Migrations\UserContext\202405092019589_InitialCreateUser.Designer.cs">
-      <DependentUpon>202405092019589_InitialCreateUser.cs</DependentUpon>
+    <Compile Include="Migrations\UserContext\202406061530370_InitialCreate.cs" />
+    <Compile Include="Migrations\UserContext\202406061530370_InitialCreate.Designer.cs">
+      <DependentUpon>202406061530370_InitialCreate.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\UserContext\UserConfiguration.cs" />
     <Compile Include="Migrations\UserInteractionContext\202405141956107_InitialCreateUserInteract.cs" />
@@ -118,14 +118,14 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\BookContext\202405092100512_InitialCreateBook.resx">
-      <DependentUpon>202405092100512_InitialCreateBook.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\BookContext\202406061525140_InitialCreate.resx">
+      <DependentUpon>202406061525140_InitialCreate.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\SessionContext\202405141849339_InitialCreateSession.resx">
       <DependentUpon>202405141849339_InitialCreateSession.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\UserContext\202405092019589_InitialCreateUser.resx">
-      <DependentUpon>202405092019589_InitialCreateUser.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\UserContext\202406061530370_InitialCreate.resx">
+      <DependentUpon>202406061530370_InitialCreate.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\UserInteractionContext\202405141956107_InitialCreateUserInteract.resx">
       <DependentUpon>202405141956107_InitialCreateUserInteract.cs</DependentUpon>

@@ -181,7 +181,73 @@ namespace MyLibrary.Web.Controllers
             // User is not logged in, redirect to login page or display an error
             return RedirectToAction("Index", "Home");
         }
+
+
+
+
+        // ... In your BooksController ...
+        public ActionResult SearchBooks(string keywords, string catalog, string category)
+        {
+            List<BookInfo> books = new List<BookInfo>();
+
+            // Check if any search parameters are provided
+            if (!string.IsNullOrEmpty(keywords) || (!string.IsNullOrEmpty(catalog) && catalog != "Search the Catalog") || (!string.IsNullOrEmpty(category) && category != "All Categories"))
+            {
+                // Fetch books based on search parameters
+                books = _context.Books.ToList();
+
+                // Apply keyword search
+                if (!string.IsNullOrEmpty(keywords))
+                {
+                    books = books.Where(b => b.Title.Contains(keywords) || b.Author.Contains(keywords)).ToList();
+                }
+
+                
+                // Apply category filter
+                if (!string.IsNullOrEmpty(category) && category != "All Categories")
+                {
+                    books = books.Where(b => b.Category == category).ToList();
+                }
+            }
+
+            // Return the search results as a partial view
+            return PartialView("SearchResults", books);
+        }
+
+
+        // Partial View for Search Results(SearchResults.cshtml)
+        public PartialViewResult SearchResults(List<BookInfo> books)
+        {
+            // Render the partial view 'SearchResults.cshtml' with the book data
+            return PartialView(books);
+        }
+
+
+        public ActionResult GetRecommendations()
+        {
+            // Fetch all books
+            var allBooks = _context.Books.ToList();
+
+            // Get a random selection of 8 books
+            var recommendedBooks = allBooks.OrderBy(b => Guid.NewGuid()).Take(8).ToList();
+
+            return PartialView("Recommendations", recommendedBooks);
+        }
+
+
+        // Partial View for Recommendations (Recommendations.cshtml)
+        public PartialViewResult Recommendations(List<BookInfo> books)
+        {
+            return PartialView(books);
+        }
+
     }
+
+
+
+   
+
+
 }
 
 

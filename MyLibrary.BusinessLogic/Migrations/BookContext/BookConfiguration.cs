@@ -1,4 +1,6 @@
-﻿namespace MyLibrary.BusinessLogic.Migrations.BookContext
+﻿using System.Data.Entity.Migrations;
+
+namespace MyLibrary.BusinessLogic.Migrations.BookContext
 {
     using System;
     using System.Data.Entity;
@@ -10,7 +12,7 @@
         public BookConfiguration()
         {
             AutomaticMigrationsEnabled = false;
-            MigrationsDirectory = @"Migrations\BookContext";
+            MigrationsDirectory = @"Migrations/BookContext";
         }
 
         protected override void Seed(MyLibrary.BusinessLogic.DBModel.BookContext context)

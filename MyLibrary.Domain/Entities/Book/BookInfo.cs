@@ -20,7 +20,9 @@ namespace MyLibrary.Domain.Entities.Book
         public DateTime PublishingDate { get; set; }
         public string Language { get; set; }
         public string Category { get; set; }
-
         public string SourceUrl { get; set; }
+
+        // Add the new field
+        public int IsPremiumStatus { get; set; }
     }
 }

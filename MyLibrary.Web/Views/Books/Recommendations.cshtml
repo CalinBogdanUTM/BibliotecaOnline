@@ -1,0 +1,123 @@
+﻿
+@model List<MyLibrary.Domain.Entities.Book.BookInfo>
+
+
+<style>
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+
+    .col-md-3 {
+        position: relative;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+
+    .card {
+        margin-bottom: 30px;
+        border: 1px solid #e3e3e3;
+        border-radius: 5px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        height: 400px; /* Set a fixed height for the card */
+    }
+
+    .card-img-top {
+        width: 100%;
+        height: 200px; /* Set a fixed height for the image container */
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        object-fit: cover; /* Maintain aspect ratio and fill the container */
+    }
+
+    .card-body {
+        padding: 15px;
+        height: calc(100% - 200px); /* Adjust the height of the card body based on the image container height */
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-title {
+        font-size: 1.25rem;
+        margin-bottom: 10px;
+        color: #333;
+    }
+
+    .card-text {
+        font-size: 1rem;
+        margin-bottom: 15px;
+        color: #666;
+        flex-grow: 1; /* Allow the text to grow and occupy the remaining space */
+    }
+
+    .btn-primary {
+        background-color: #007bff;
+        border-color: #007bff;
+        color: #fff;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 1rem;
+        border-radius: 5px;
+        margin-top: auto; /* Push the button to the bottom of the card body */
+    }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+            border-color: #004085;
+        }
+
+    .col-md-12 p {
+        text-align: center;
+        font-size: 1.2rem;
+        color: #999;
+    }
+    /* Styles for the heading and paragraph */
+    h2 {
+        text-align: center;
+        font-size: 2.5rem;
+        font-weight: bold;
+        color: #333;
+        margin-bottom: 1rem;
+    }
+
+    p {
+        text-align: center;
+        font-size: 1.2rem;
+        color: #666;
+    }
+</style>
+
+<h2>Special for You</h2>
+<p>Based on your preferences, we think you might enjoy these:</p>
+
+<div class="row">
+    @if (Model.Any())
+    {
+        foreach (var book in Model)
+        {
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="~/images/coperta/@book.ImageUrl" class="card-img-top" alt="@book.Title" class="book-image">
+                    <div class="card-body">
+                        <h5 class="card-title">@book.Title</h5>
+                        <p class="card-text">By @book.Author</p>
+                        <a href="@Url.Action("Details", "Books", new { id = book.BookId })" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+        }
+    }
+    else
+    {
+        <div class="col-md-12">
+            <p>No books found matching your search.</p>
+        </div>
+    }
+</div>

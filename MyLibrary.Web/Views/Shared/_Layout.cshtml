@@ -6,102 +6,128 @@
 
 
     @Styles.Render("~/bundles/vendorcss")
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script> 
 </head>
 
 
 <style>
 
     .title_1 {
-
-        color : black ; 
-        background-color : black ;
-
+        
+        background-color: black;
     }
+
+    .messagetext {
+        text-align: center;
+    }
+
+    /* New styles for welcome message */
+    .welcome-section {
+        text-align: center;
+        padding: 20px 0;
+        background-color: #f0f0f0; /* Light gray background */
+    }
+
+        .welcome-section h1 {
+            font-size: 3em;
+            color: #333; /* Dark gray text */
+            margin-bottom: 10px;
+        }
+
+        .welcome-section p {
+            font-size: 1.2em;
+            color: #555; /* Darker gray text */
+            margin-bottom: 0;
+        }
+
+    /* Styles for user recommendations */
+    .user-recommendations {
+        padding: 20px;
+    }
+
+        .user-recommendations h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+    .book-card {
+        display: inline-block;
+        margin: 10px;
+        width: 200px;
+        text-align: center;
+    }
+
+        .book-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .book-card h3 {
+            margin-top: 10px;
+            font-size: 1.1em;
+        }
+
+        .book-card p {
+            margin-bottom: 0;
+            font-size: 0.9em;
+        }
+
+        .row { 
+
+        }
 </style>
 
 <body>
-    
 
 
 
 
-<!-- ======= Header ======= -->
-<header id="header" class="fixed-top "> @Html.Partial("_Header") </header>
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top "> @Html.Partial("_Header") </header>
     <!-- Start: Slider Section -->
+    <!-- Start: Welcome Section -->
  
-
-        <!-- Carousel slides -->
-        <div  data-ride="carousel" class="carousel slide" id="home-v1-header-carousel" >
-            <div class="item active">
-                <figure>
-                    <img alt="Home Slide" src="~/Vendor/images/header-slider/home-v1/header-slide.jpg" />
-                </figure>
-               
+    <!-- End: Welcome Section -->
+    <!-- Carousel slides -->
+    <div data-ride="carousel" class="carousel slide" id="home-v1-header-carousel">
+        <div class="item active">
             
-        </div>
+            
+            <figure>
+                <img alt="Home Slide" src="~/Vendor/images/header-slider/home-v1/header-slide.jpg"/>
+            </figure>
 
-  
+
+        </div>
+        
+
     </div>
-    <!-- End: Slider Section -->
-    <!-- Start: Search Section -->
-    <section class="search-filters">
+
+    <section class="user-recommendations section-padding">
         <div class="container">
-            <div class="filter-box">
-                <h3>What are you looking for at the library?</h3>
-                <form action="http://libraria.demo.presstigers.com/index.html" method="get">
-                    <div class="col-md-4 col-sm-6">
-                        <div class="form-group">
-                            <label class="sr-only" for="keywords">Search by Keyword</label>
-                            <input class="form-control" placeholder="Search by Keyword" id="keywords" name="keywords"
-                                   type="text">
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="form-group">
-                            <select name="catalog" id="catalog" class="form-control">
-                                <option>Search the Catalog</option>
-                                <option>Catalog 01</option>
-                                <option>Catalog 02</option>
-                                <option>Catalog 03</option>
-                                <option>Catalog 04</option>
-                                <option>Catalog 05</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="form-group">
-                            <select name="category" id="category" class="form-control">
-                                <option>All Categories</option>
-                                <option>Category 01</option>
-                                <option>Category 02</option>
-                                <option>Category 03</option>
-                                <option>Category 04</option>
-                                <option>Category 05</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="col-md-2 col-sm-6">
-                        <div class="form-group">
-                            <input class="form-control" type="submit" value="Search">
-                        </div>
-                    </div>
-                </form>
-            </div>
+            <h2>Your Recommendations</h2>
+            @Html.Action("GetRecommendations", "Books")
         </div>
     </section>
-    <!-- End: Search Section -->
-    
+    <!-- End: User Recommendations -->
+
     <!-- Start: Category Filter -->
     <section class="category-filter section-padding">
         <div class="container">
             <div class="center-content">
                 <div class>
                     <div>
+                      
+
+                        
+                        
+
                         <h2 class="title_1">Check Out The New Releases</h2>
-                       
-          
-                  <br/>
+
+
+                        <br/>
                     </div>
                 </div>
             </div>
@@ -542,10 +568,6 @@
     </section>
     <!-- Start: Category Filter -->
     <!-- Start: Features -->
-  
-    
-  
-   
     <!-- Start: Social Network -->
     <section class="social-network section-padding">
         <div class="container">
@@ -601,11 +623,39 @@
         </div>
     </section>
     <!-- End: Social Network -->
- 
-    <footer id="footer"> @Html.Partial("_Footer") </footer>
+
 
     @Scripts.Render("~/bundles/vendorjs")
     @RenderBody();
+
+    <script>
+        $(document).ready(function () {
+            $("#searchButton").click(function (event) {
+                event.preventDefault();
+
+                var formData = $("#searchForm").serialize();
+
+                $.ajax({
+                    type: "GET",
+                    url: "/Books/SearchBooks",
+                    data: formData,
+                    success: function (data) {
+                        console.log("Data returned from the server:", data); // Add this for debugging
+                        $("#searchResults").html(data);
+                    },
+                    error: function () {
+                        console.log("Error fetching search results.");
+                        $("#searchResults").html("<p>An error occurred while searching. Please try again later.</p>");
+                    }
+                });
+            });
+        });
+    </script>
+
+
+
+    <footer id="footer"> @Html.Partial("_Footer") </footer>
+
 </body>
 
 

@@ -59,9 +59,9 @@ C:\Users\alinp\source\repos\MyLibrary.Web\MyLibrary.BusinessLogic\bin\Debug\Syst
 C:\Users\alinp\source\repos\MyLibrary.Web\MyLibrary.BusinessLogic\bin\Debug\System.Web.WebPages.Deployment.xml
 C:\Users\alinp\source\repos\MyLibrary.Web\MyLibrary.BusinessLogic\bin\Debug\System.Web.WebPages.Razor.xml
 C:\Users\alinp\source\repos\MyLibrary.Web\MyLibrary.BusinessLogic\obj\Debug\MyLibrary.BusinessLogic.csproj.AssemblyReference.cache
-C:\Users\alinp\source\repos\MyLibrary.Web\MyLibrary.BusinessLogic\obj\Debug\MyLibrary.BusinessLogic.Migrations.BookContext.InitialCreateBook.resources
+C:\Users\alinp\source\repos\MyLibrary.Web\MyLibrary.BusinessLogic\obj\Debug\MyLibrary.BusinessLogic.Migrations.BookContext.InitialCreate.resources
 C:\Users\alinp\source\repos\MyLibrary.Web\MyLibrary.BusinessLogic\obj\Debug\MyLibrary.BusinessLogic.Migrations.SessionContext.InitialCreateSession.resources
-C:\Users\alinp\source\repos\MyLibrary.Web\MyLibrary.BusinessLogic\obj\Debug\MyLibrary.BusinessLogic.Migrations.UserContext.InitialCreateUser.resources
+C:\Users\alinp\source\repos\MyLibrary.Web\MyLibrary.BusinessLogic\obj\Debug\MyLibrary.BusinessLogic.Migrations.UserContext.InitialCreate.resources
 C:\Users\alinp\source\repos\MyLibrary.Web\MyLibrary.BusinessLogic\obj\Debug\MyLibrary.BusinessLogic.Migrations.UserInteractionContext.InitialCreateUserInteract.resources
 C:\Users\alinp\source\repos\MyLibrary.Web\MyLibrary.BusinessLogic\obj\Debug\MyLibrary.BusinessLogic.csproj.GenerateResource.cache
 C:\Users\alinp\source\repos\MyLibrary.Web\MyLibrary.BusinessLogic\obj\Debug\MyLibrary.BusinessLogic.csproj.CoreCompileInputs.cache

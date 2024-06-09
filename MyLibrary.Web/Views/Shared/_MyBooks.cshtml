@@ -1,7 +1,5 @@
 ﻿@using MyLibrary.Domain.Entities.Book
-
 <!DOCTYPE html>
-
 <html lang="zxx">
 <head>
     @Styles.Render("~/bundles/vendorcss")
@@ -24,13 +22,19 @@
             margin-right: 20px;
             margin-bottom: 20px;
             display: flex;
+            flex-direction: column;
             align-items: center;
+            width: 200px;
+            background-color: #f5f5f5;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
 
             .mybooks-container li img {
                 width: 150px;
                 height: auto;
-                margin-right: 15px;
+                margin-bottom: 10px;
             }
 
             .mybooks-container li:hover img {
@@ -38,7 +42,6 @@
                 transition: transform 0.2s ease;
             }
 
-            
         /* Header Styles */
         header {
             background-color: #333;
@@ -48,6 +51,27 @@
             font-size: 24px;
             font-weight: bold;
             text-transform: uppercase;
+        }
+
+        /* Section Styles */
+        .section-container {
+            margin-bottom: 30px;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        .section-title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .read-now-section {
+            background-color: #fff5e6; /* Light orange background */
+        }
+
+        .favorites-section {
+            background-color: #ffebee; /* Light red background */
         }
     </style>
 </head>
@@ -59,47 +83,50 @@
     <div id="content" class="site-content">
         <div id="primary" class="content-area">
             <main id="main" class="site-main">
-              
-                <div class="container mybooks-container">
-                    <h2>My Read Now Books</h2>
-                    <ul>
-                        @if (((IEnumerable<BookInfo>)Model.ReadNowBooks).Any())
-                        {
-                            foreach (var book in Model.ReadNowBooks)
-                            {
-                                <li>
-                                    <a href="@Url.Action("Details", "Books", new { id = book.BookId })">
-                                        <img src="~/images/coperta/@book.ImageUrl" alt="@book.Title" class="book-image">
-                                        @book.Title
-                                    </a>
-                                </li>
-                            }
-                        }
-                        else
-                        {
-                            <li>No books marked as Read Now.</li>
-                        }
-                    </ul>
 
-                    <h2>My Favorite Books</h2>
-                    <ul>
-                        @if (((IEnumerable<BookInfo>)Model.FavoritesBooks).Any())
-                        {
-                            foreach (var book in Model.FavoritesBooks)
+                <div class="container mybooks-container">
+                    <div class="section-container read-now-section">
+                        <h2 class="section-title">Read Now Books</h2>
+                        <ul>
+                            @if (((IEnumerable<BookInfo>)Model.ReadNowBooks).Any())
                             {
-                                <li>
-                                    <a href="@Url.Action("Details", "Books", new { id = book.BookId })">
-                                        <img src="~/images/coperta/@book.ImageUrl" alt="@book.Title" class="book-image">
-                                        @book.Title
-                                    </a>
-                                </li>
+                                foreach (var book in Model.ReadNowBooks)
+                                {
+                                    <li>
+                                        <a href="@Url.Action("Details", "Books", new { id = book.BookId })">
+                                            <img src="~/images/coperta/@book.ImageUrl" alt="@book.Title" class="book-image">
+                                            @book.Title
+                                        </a>
+                                    </li>
+                                }
                             }
-                        }
-                        else
-                        {
-                            <li>No books marked as favorites.</li>
-                        }
-                    </ul>
+                            else
+                            {
+                                <li>No books marked as Read Now.</li>
+                            }
+                        </ul>
+                    </div>
+                    <div class="section-container favorites-section">
+                        <h2 class="section-title">Favorite Books</h2>
+                        <ul>
+                            @if (((IEnumerable<BookInfo>)Model.FavoritesBooks).Any())
+                            {
+                                foreach (var book in Model.FavoritesBooks)
+                                {
+                                    <li>
+                                        <a href="@Url.Action("Details", "Books", new { id = book.BookId })">
+                                            <img src="~/images/coperta/@book.ImageUrl" alt="@book.Title" class="book-image">
+                                            @book.Title
+                                        </a>
+                                    </li>
+                                }
+                            }
+                            else
+                            {
+                                <li>No books marked as favorites.</li>
+                            }
+                        </ul>
+                    </div>
                 </div>
             </main>
         </div>
@@ -108,7 +135,6 @@
     <!-- Footer -->
     <footer id="footer">@Html.Partial("_Footer")</footer>
     <!-- End Footer -->
-
     @Scripts.Render("~/bundles/vendorjs")
     @RenderBody();
 </body>

@@ -1,4 +1,6 @@
-﻿namespace MyLibrary.BusinessLogic.Migrations.UserContext
+﻿using System.Data.Entity.Migrations;
+
+namespace MyLibrary.BusinessLogic.Migrations.UserContext
 {
     using System;
     using System.Data.Entity;
@@ -10,7 +12,7 @@
         public UserConfiguration()
         {
             AutomaticMigrationsEnabled = false;
-            MigrationsDirectory = @"Migrations\UserContext";
+            MigrationsDirectory = @"Migrations/UserContext";
         }
 
         protected override void Seed(MyLibrary.BusinessLogic.DBModel.UserContext context)

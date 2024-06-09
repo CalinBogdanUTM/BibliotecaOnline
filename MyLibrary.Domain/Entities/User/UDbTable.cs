@@ -33,5 +33,7 @@ namespace MyLibrary.Domain.User
           public string LasIp { get; set; }
 
           public URole level { get; set; }
+
+          public int IsPremiumUser { get; set; }
      }
 }
