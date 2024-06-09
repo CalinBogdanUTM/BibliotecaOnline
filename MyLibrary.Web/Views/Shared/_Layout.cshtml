@@ -21,7 +21,6 @@
         text-align: center;
     }
 
-    /* New styles for welcome message */
     .welcome-section {
         text-align: center;
         padding: 20px 0;
@@ -104,6 +103,8 @@
         
 
     </div>
+    @if ((string)System.Web.HttpContext.Current.Session["LoginStatus"] == "login")
+    {
 
     <section class="user-recommendations section-padding">
         <div class="container">
@@ -112,12 +113,13 @@
         </div>
     </section>
     <!-- End: User Recommendations -->
-
+    }
+    else {<h1 class ="messagetext">Login or Register for Recomedations</h1>} 
     <!-- Start: Category Filter -->
     <section class="category-filter section-padding">
         <div class="container">
             <div class="center-content">
-                <div class>
+                <div >
                     <div>
                       
 

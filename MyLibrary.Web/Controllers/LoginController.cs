@@ -45,6 +45,7 @@ namespace MyLibrary.Web.Controllers
                     HttpCookie cookie = _session.GenCookie(login.Credential);
                     ControllerContext.HttpContext.Response.Cookies.Add(cookie);
                     //ADDcookie
+                    if(userLogin.level == URole.Admin){ return RedirectToAction("Index", "Admin"); }
                     return RedirectToAction("Index", "Home");
                 }
 

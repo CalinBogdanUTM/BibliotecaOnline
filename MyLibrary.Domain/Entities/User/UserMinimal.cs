@@ -15,5 +15,7 @@ namespace MyLibrary.Domain.Entities.User
           public DateTime LastLogin { get; set; }
           public string LasIp { get; set; }
           public URole Level { get; set; }
+
+           public int IsPremiumUser { get; set; }
      }
 }

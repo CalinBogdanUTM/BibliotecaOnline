@@ -182,7 +182,7 @@
                                             </div>
                                             <figcaption>
                                                 <header>
-                                                    <h4><a href="books-media-detail-v2.html">@book.Title</a></h4>
+                                                    <h4><a href="@Url.Action("Details", "Books", new { id = book.BookId })">@book.Title</a></h4>
                                                     <p><strong>Author:</strong> @book.Author</p>
                                             
                                                 </header>

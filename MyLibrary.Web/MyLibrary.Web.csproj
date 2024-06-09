@@ -126,6 +126,7 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Controllers\ModeratorController.cs" />
+    <Compile Include="Controllers\PaymentController.cs" />
     <Compile Include="Controllers\RegisterController.cs" />
     <Compile Include="Extension\HttpContextExtensions.cs" />
     <Compile Include="Global.asax.cs">
@@ -398,6 +399,7 @@
     <Content Include="Vendor\css\profile.css" />
     <Content Include="Vendor\css\responsivetable.css" />
     <Content Include="Vendor\css\style.css" />
+    <Content Include="Vendor\css\stylePayment.css" />
     <Content Include="Vendor\css\themify-icons.min.css" />
     <Content Include="Vendor\fonts\fontawesome-webfont914c.html" />
     <Content Include="Vendor\fonts\fontawesome-webfont914c.svg" />
@@ -585,6 +587,7 @@
     <Content Include="Vendor\js\profile.js" />
     <Content Include="Vendor\js\responsive.table.min.js" />
     <Content Include="Vendor\js\responsive.tabs.min.js" />
+    <Content Include="Vendor\js\scriptPayment.js" />
     <Content Include="Vendor\js\waypoints.min.js" />
     <Content Include="Vendor\sound\turn.mp3" />
     <Content Include="Vendor\sound\turn2.mp3" />
@@ -842,6 +845,8 @@
     <Content Include="Vendor\book\Time Travel %281990%29 by John W. Macvey.pdf" />
     <Content Include="Vendor\book\Uncertain Liaisons by Khushwant Singh &amp; Shobhaa De %28Eds.%29.pdf" />
     <Content Include="Views\Books\Recommendations.cshtml" />
+    <Content Include="Views\Payment\Index.cshtml" />
+    <Content Include="Views\Shared\_LayoutPayment.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

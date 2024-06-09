@@ -3,114 +3,95 @@
   "WorkspaceRootPath": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|c:\\users\\alinp\\source\\repos\\mylibrary.web\\mylibrary.web\\views\\shared\\searchresults.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|solutionrelative:mylibrary.web\\views\\shared\\searchresults.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/ALXN/MyLibrary/True/SqlTable/dbo.UDbTables.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\mylibrary.web\\views\\books\\searchresults.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|solutionrelative:mylibrary.web\\views\\books\\searchresults.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|c:\\users\\alinp\\source\\repos\\mylibrary.web\\mylibrary.web\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|solutionrelative:mylibrary.web\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\mylibrary.web\\views\\shared\\_mybooks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|solutionrelative:mylibrary.web\\views\\shared\\_mybooks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{82B6B11B-A11C-4DB9-AA49-BEF6A011932C}|MyLibrary.Domain\\MyLibrary.Domain.csproj|c:\\users\\alinp\\source\\repos\\mylibrary.web\\mylibrary.domain\\entities\\user\\uloginresp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82B6B11B-A11C-4DB9-AA49-BEF6A011932C}|MyLibrary.Domain\\MyLibrary.Domain.csproj|solutionrelative:mylibrary.domain\\entities\\user\\uloginresp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\mylibrary.web\\models\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|solutionrelative:mylibrary.web\\models\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|c:\\users\\alinp\\source\\repos\\mylibrary.web\\mylibrary.web\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|solutionrelative:mylibrary.web\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|c:\\users\\alinp\\source\\repos\\mylibrary.web\\mylibrary.web\\views\\books\\recommendations.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|solutionrelative:mylibrary.web\\views\\books\\recommendations.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{15CC6D8E-6993-4266-91FB-16591A311446}|MyLibrary.BusinessLogic\\MyLibrary.BusinessLogic.csproj|c:\\users\\alinp\\source\\repos\\mylibrary.web\\mylibrary.businesslogic\\core\\userapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15CC6D8E-6993-4266-91FB-16591A311446}|MyLibrary.BusinessLogic\\MyLibrary.BusinessLogic.csproj|solutionrelative:mylibrary.businesslogic\\core\\userapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\mylibrary.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|solutionrelative:mylibrary.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|c:\\users\\alinp\\source\\repos\\mylibrary.web\\mylibrary.web\\views\\shared\\_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|solutionrelative:mylibrary.web\\views\\shared\\_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{82B6B11B-A11C-4DB9-AA49-BEF6A011932C}|MyLibrary.Domain\\MyLibrary.Domain.csproj|c:\\users\\alinp\\source\\repos\\mylibrary.web\\mylibrary.domain\\entities\\user\\urole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82B6B11B-A11C-4DB9-AA49-BEF6A011932C}|MyLibrary.Domain\\MyLibrary.Domain.csproj|solutionrelative:mylibrary.domain\\entities\\user\\urole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|c:\\users\\alinp\\source\\repos\\mylibrary.web\\mylibrary.web\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|solutionrelative:mylibrary.web\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|c:\\users\\alinp\\source\\repos\\mylibrary.web\\mylibrary.web\\views\\shared\\_layoutpayment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|solutionrelative:mylibrary.web\\views\\shared\\_layoutpayment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|c:\\users\\alinp\\source\\repos\\mylibrary.web\\mylibrary.web\\views\\shared\\_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|solutionrelative:mylibrary.web\\views\\shared\\_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|c:\\users\\alinp\\source\\repos\\mylibrary.web\\mylibrary.web\\extension\\httpcontextextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|solutionrelative:mylibrary.web\\extension\\httpcontextextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|c:\\users\\alinp\\source\\repos\\mylibrary.web\\mylibrary.web\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|solutionrelative:mylibrary.web\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CC6D8E-6993-4266-91FB-16591A311446}|MyLibrary.BusinessLogic\\MyLibrary.BusinessLogic.csproj|c:\\users\\alinp\\source\\repos\\mylibrary.web\\mylibrary.businesslogic\\mainbl\\sessionbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15CC6D8E-6993-4266-91FB-16591A311446}|MyLibrary.BusinessLogic\\MyLibrary.BusinessLogic.csproj|solutionrelative:mylibrary.businesslogic\\mainbl\\sessionbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CC6D8E-6993-4266-91FB-16591A311446}|MyLibrary.BusinessLogic\\MyLibrary.BusinessLogic.csproj|c:\\users\\alinp\\source\\repos\\mylibrary.web\\mylibrary.businesslogic\\interfaces\\isession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15CC6D8E-6993-4266-91FB-16591A311446}|MyLibrary.BusinessLogic\\MyLibrary.BusinessLogic.csproj|solutionrelative:mylibrary.businesslogic\\interfaces\\isession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82B6B11B-A11C-4DB9-AA49-BEF6A011932C}|MyLibrary.Domain\\MyLibrary.Domain.csproj|c:\\users\\alinp\\source\\repos\\mylibrary.web\\mylibrary.domain\\entities\\user\\userminimal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82B6B11B-A11C-4DB9-AA49-BEF6A011932C}|MyLibrary.Domain\\MyLibrary.Domain.csproj|solutionrelative:mylibrary.domain\\entities\\user\\userminimal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CC6D8E-6993-4266-91FB-16591A311446}|MyLibrary.BusinessLogic\\MyLibrary.BusinessLogic.csproj|c:\\users\\alinp\\source\\repos\\mylibrary.web\\mylibrary.businesslogic\\mainbl\\adminsessionbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15CC6D8E-6993-4266-91FB-16591A311446}|MyLibrary.BusinessLogic\\MyLibrary.BusinessLogic.csproj|solutionrelative:mylibrary.businesslogic\\mainbl\\adminsessionbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|c:\\users\\alinp\\source\\repos\\mylibrary.web\\mylibrary.web\\views\\shared\\_layoutlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|solutionrelative:mylibrary.web\\views\\shared\\_layoutlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|c:\\users\\alinp\\source\\repos\\mylibrary.web\\mylibrary.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|solutionrelative:mylibrary.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CC6D8E-6993-4266-91FB-16591A311446}|MyLibrary.BusinessLogic\\MyLibrary.BusinessLogic.csproj|c:\\users\\alinp\\source\\repos\\mylibrary.web\\mylibrary.businesslogic\\dbmodel\\usercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15CC6D8E-6993-4266-91FB-16591A311446}|MyLibrary.BusinessLogic\\MyLibrary.BusinessLogic.csproj|solutionrelative:mylibrary.businesslogic\\dbmodel\\usercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82B6B11B-A11C-4DB9-AA49-BEF6A011932C}|MyLibrary.Domain\\MyLibrary.Domain.csproj|c:\\users\\alinp\\source\\repos\\mylibrary.web\\mylibrary.domain\\entities\\user\\udbtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82B6B11B-A11C-4DB9-AA49-BEF6A011932C}|MyLibrary.Domain\\MyLibrary.Domain.csproj|solutionrelative:mylibrary.domain\\entities\\user\\udbtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82B6B11B-A11C-4DB9-AA49-BEF6A011932C}|MyLibrary.Domain\\MyLibrary.Domain.csproj|c:\\users\\alinp\\source\\repos\\mylibrary.web\\mylibrary.domain\\entities\\user\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82B6B11B-A11C-4DB9-AA49-BEF6A011932C}|MyLibrary.Domain\\MyLibrary.Domain.csproj|solutionrelative:mylibrary.domain\\entities\\user\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|c:\\users\\alinp\\source\\repos\\mylibrary.web\\mylibrary.web\\views\\shared\\_layoutdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|solutionrelative:mylibrary.web\\views\\shared\\_layoutdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\mylibrary.web\\views\\shared\\_layoutbooks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|solutionrelative:mylibrary.web\\views\\shared\\_layoutbooks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/ALXN/MyLibrary/True/SqlTable/dbo.BookInfoes.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82B6B11B-A11C-4DB9-AA49-BEF6A011932C}|MyLibrary.Domain\\MyLibrary.Domain.csproj|C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\mylibrary.domain\\entities\\book\\bookinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82B6B11B-A11C-4DB9-AA49-BEF6A011932C}|MyLibrary.Domain\\MyLibrary.Domain.csproj|solutionrelative:mylibrary.domain\\entities\\book\\bookinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{15CC6D8E-6993-4266-91FB-16591A311446}|MyLibrary.BusinessLogic\\MyLibrary.BusinessLogic.csproj|C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\mylibrary.businesslogic\\dbmodel\\bookcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{15CC6D8E-6993-4266-91FB-16591A311446}|MyLibrary.BusinessLogic\\MyLibrary.BusinessLogic.csproj|solutionrelative:mylibrary.businesslogic\\dbmodel\\bookcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{15CC6D8E-6993-4266-91FB-16591A311446}|MyLibrary.BusinessLogic\\MyLibrary.BusinessLogic.csproj|C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\mylibrary.businesslogic\\migrations\\usercontext\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{15CC6D8E-6993-4266-91FB-16591A311446}|MyLibrary.BusinessLogic\\MyLibrary.BusinessLogic.csproj|solutionrelative:mylibrary.businesslogic\\migrations\\usercontext\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/ALXN/MyLibrary/True/SqlTable/dbo.UDbTables.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82B6B11B-A11C-4DB9-AA49-BEF6A011932C}|MyLibrary.Domain\\MyLibrary.Domain.csproj|C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\mylibrary.domain\\entities\\user\\udbtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82B6B11B-A11C-4DB9-AA49-BEF6A011932C}|MyLibrary.Domain\\MyLibrary.Domain.csproj|solutionrelative:mylibrary.domain\\entities\\user\\udbtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{15CC6D8E-6993-4266-91FB-16591A311446}|MyLibrary.BusinessLogic\\MyLibrary.BusinessLogic.csproj|C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\mylibrary.businesslogic\\migrations\\bookcontext\\202406061525140_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{15CC6D8E-6993-4266-91FB-16591A311446}|MyLibrary.BusinessLogic\\MyLibrary.BusinessLogic.csproj|solutionrelative:mylibrary.businesslogic\\migrations\\bookcontext\\202406061525140_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{15CC6D8E-6993-4266-91FB-16591A311446}|MyLibrary.BusinessLogic\\MyLibrary.BusinessLogic.csproj|C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\mylibrary.businesslogic\\migrations\\bookcontext\\bookconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{15CC6D8E-6993-4266-91FB-16591A311446}|MyLibrary.BusinessLogic\\MyLibrary.BusinessLogic.csproj|solutionrelative:mylibrary.businesslogic\\migrations\\bookcontext\\bookconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{15CC6D8E-6993-4266-91FB-16591A311446}|MyLibrary.BusinessLogic\\MyLibrary.BusinessLogic.csproj|C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\mylibrary.businesslogic\\dbmodel\\sessioncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{15CC6D8E-6993-4266-91FB-16591A311446}|MyLibrary.BusinessLogic\\MyLibrary.BusinessLogic.csproj|solutionrelative:mylibrary.businesslogic\\dbmodel\\sessioncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\mylibrary.web\\models\\userreg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|solutionrelative:mylibrary.web\\models\\userreg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\mylibrary.web\\models\\adminviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|solutionrelative:mylibrary.web\\models\\adminviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\mylibrary.web\\models\\userdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|solutionrelative:mylibrary.web\\models\\userdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\mylibrary.web\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|solutionrelative:mylibrary.web\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\mylibrary.web\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|c:\\users\\alinp\\source\\repos\\mylibrary.web\\mylibrary.web\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|solutionrelative:mylibrary.web\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{15CC6D8E-6993-4266-91FB-16591A311446}|MyLibrary.BusinessLogic\\MyLibrary.BusinessLogic.csproj|C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\mylibrary.businesslogic\\core\\adminapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{15CC6D8E-6993-4266-91FB-16591A311446}|MyLibrary.BusinessLogic\\MyLibrary.BusinessLogic.csproj|solutionrelative:mylibrary.businesslogic\\core\\adminapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82B6B11B-A11C-4DB9-AA49-BEF6A011932C}|MyLibrary.Domain\\MyLibrary.Domain.csproj|C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\mylibrary.domain\\entities\\user\\uregisterdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82B6B11B-A11C-4DB9-AA49-BEF6A011932C}|MyLibrary.Domain\\MyLibrary.Domain.csproj|solutionrelative:mylibrary.domain\\entities\\user\\uregisterdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82B6B11B-A11C-4DB9-AA49-BEF6A011932C}|MyLibrary.Domain\\MyLibrary.Domain.csproj|C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\mylibrary.domain\\entities\\book\\baddresp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82B6B11B-A11C-4DB9-AA49-BEF6A011932C}|MyLibrary.Domain\\MyLibrary.Domain.csproj|solutionrelative:mylibrary.domain\\entities\\book\\baddresp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\mylibrary.web\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|solutionrelative:mylibrary.web\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|c:\\users\\alinp\\source\\repos\\mylibrary.web\\mylibrary.web\\views\\shared\\_layoutbooks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4F3781D7-6CC2-4746-AFEA-B468277F74D8}|MyLibrary.Web\\MyLibrary.Web.csproj|solutionrelative:mylibrary.web\\views\\shared\\_layoutbooks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -120,42 +101,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserLogin.cs",
-              "DocumentMoniker": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.Web\\Models\\UserLogin.cs",
-              "RelativeDocumentMoniker": "MyLibrary.Web\\Models\\UserLogin.cs",
-              "ToolTip": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.Web\\Models\\UserLogin.cs",
-              "RelativeToolTip": "MyLibrary.Web\\Models\\UserLogin.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAGAAAA",
+              "DocumentIndex": 2,
+              "Title": "ULoginResp.cs",
+              "DocumentMoniker": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.Domain\\Entities\\User\\ULoginResp.cs",
+              "RelativeDocumentMoniker": "MyLibrary.Domain\\Entities\\User\\ULoginResp.cs",
+              "ToolTip": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.Domain\\Entities\\User\\ULoginResp.cs",
+              "RelativeToolTip": "MyLibrary.Domain\\Entities\\User\\ULoginResp.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T21:20:27.504Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SearchResults.cshtml",
-              "DocumentMoniker": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.Web\\Views\\Shared\\SearchResults.cshtml",
-              "RelativeDocumentMoniker": "MyLibrary.Web\\Views\\Shared\\SearchResults.cshtml",
-              "ToolTip": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.Web\\Views\\Shared\\SearchResults.cshtml",
-              "RelativeToolTip": "MyLibrary.Web\\Views\\Shared\\SearchResults.cshtml",
-              "ViewState": "AQIAACkAAAAAAAAAAAAkwGoAAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-08T18:59:15.64Z",
-              "IsPinned": true,
+              "WhenOpened": "2024-06-09T21:24:24.768Z",
               "EditorCaption": ""
             },
             {
@@ -164,16 +126,95 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SearchResults.cshtml",
-              "DocumentMoniker": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.Web\\Views\\Books\\SearchResults.cshtml",
-              "RelativeDocumentMoniker": "MyLibrary.Web\\Views\\Books\\SearchResults.cshtml",
-              "ToolTip": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.Web\\Views\\Books\\SearchResults.cshtml",
-              "RelativeToolTip": "MyLibrary.Web\\Views\\Books\\SearchResults.cshtml",
-              "ViewState": "AQIAACkAAAAAAAAAAAAkwGoAAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-05T22:21:43.548Z",
+              "DocumentIndex": 3,
+              "Title": "PaymentController.cs",
+              "DocumentMoniker": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.Web\\Controllers\\PaymentController.cs",
+              "RelativeDocumentMoniker": "MyLibrary.Web\\Controllers\\PaymentController.cs",
+              "ToolTip": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.Web\\Controllers\\PaymentController.cs",
+              "RelativeToolTip": "MyLibrary.Web\\Controllers\\PaymentController.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAADwvxQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T18:24:10.95Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.Web\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "MyLibrary.Web\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.Web\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "MyLibrary.Web\\Controllers\\LoginController.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAwCMAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T18:18:40.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "dbo.UDbTables [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/ALXN/MyLibrary/True/SqlTable/dbo.UDbTables.sql",
+              "ToolTip": "dbo.UDbTables [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-06-09T18:39:08.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserAPI.cs",
+              "DocumentMoniker": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.BusinessLogic\\Core\\UserAPI.cs",
+              "RelativeDocumentMoniker": "MyLibrary.BusinessLogic\\Core\\UserAPI.cs",
+              "ToolTip": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.BusinessLogic\\Core\\UserAPI.cs*",
+              "RelativeToolTip": "MyLibrary.BusinessLogic\\Core\\UserAPI.cs*",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACwAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T19:46:38.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "URole.cs",
+              "DocumentMoniker": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.Domain\\Entities\\User\\URole.cs",
+              "RelativeDocumentMoniker": "MyLibrary.Domain\\Entities\\User\\URole.cs",
+              "ToolTip": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.Domain\\Entities\\User\\URole.cs",
+              "RelativeToolTip": "MyLibrary.Domain\\Entities\\User\\URole.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T21:25:33.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.Web\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "MyLibrary.Web\\Controllers\\BooksController.cs",
+              "ToolTip": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.Web\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "MyLibrary.Web\\Controllers\\BooksController.cs",
+              "ViewState": "AQIAAJYAAAAAAAAAAAAowLUAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T18:18:34.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_LayoutPayment.cshtml",
+              "DocumentMoniker": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.Web\\Views\\Shared\\_LayoutPayment.cshtml",
+              "RelativeDocumentMoniker": "MyLibrary.Web\\Views\\Shared\\_LayoutPayment.cshtml",
+              "ToolTip": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.Web\\Views\\Shared\\_LayoutPayment.cshtml",
+              "RelativeToolTip": "MyLibrary.Web\\Views\\Shared\\_LayoutPayment.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAI8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-09T18:35:09.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
               "$type": "Bookmark",
@@ -181,315 +222,198 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_MyBooks.cshtml",
-              "DocumentMoniker": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.Web\\Views\\Shared\\_MyBooks.cshtml",
-              "RelativeDocumentMoniker": "MyLibrary.Web\\Views\\Shared\\_MyBooks.cshtml",
-              "ToolTip": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.Web\\Views\\Shared\\_MyBooks.cshtml",
-              "RelativeToolTip": "MyLibrary.Web\\Views\\Shared\\_MyBooks.cshtml",
-              "ViewState": "AQIAAFoAAAAAAAAAAAAiwH4AAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-05T21:33:23.114Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Recommendations.cshtml",
-              "DocumentMoniker": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.Web\\Views\\Books\\Recommendations.cshtml",
-              "RelativeDocumentMoniker": "MyLibrary.Web\\Views\\Books\\Recommendations.cshtml",
-              "ToolTip": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.Web\\Views\\Books\\Recommendations.cshtml",
-              "RelativeToolTip": "MyLibrary.Web\\Views\\Books\\Recommendations.cshtml",
-              "ViewState": "AQIAAD8AAAAAAAAAAAAgwE8AAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-08T18:47:41.896Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.Web\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "MyLibrary.Web\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.Web\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "MyLibrary.Web\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAEgAAAAAAAAAAAAAAH4AAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-05T20:57:24.485Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "_Header.cshtml",
               "DocumentMoniker": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.Web\\Views\\Shared\\_Header.cshtml",
               "RelativeDocumentMoniker": "MyLibrary.Web\\Views\\Shared\\_Header.cshtml",
               "ToolTip": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.Web\\Views\\Shared\\_Header.cshtml",
               "RelativeToolTip": "MyLibrary.Web\\Views\\Shared\\_Header.cshtml",
-              "ViewState": "AQIAADwAAAAAAAAAAAAAAAQAAAAeAAAA",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAIAAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-08T19:12:25.231Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "BooksController.cs",
-              "DocumentMoniker": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.Web\\Controllers\\BooksController.cs",
-              "RelativeDocumentMoniker": "MyLibrary.Web\\Controllers\\BooksController.cs",
-              "ToolTip": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.Web\\Controllers\\BooksController.cs",
-              "RelativeToolTip": "MyLibrary.Web\\Controllers\\BooksController.cs",
-              "ViewState": "AQIAAMsAAAAAAAAAAAAswOsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T21:01:20.036Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "_LayoutDetails.cshtml",
-              "DocumentMoniker": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.Web\\Views\\Shared\\_LayoutDetails.cshtml",
-              "RelativeDocumentMoniker": "MyLibrary.Web\\Views\\Shared\\_LayoutDetails.cshtml",
-              "ToolTip": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.Web\\Views\\Shared\\_LayoutDetails.cshtml",
-              "RelativeToolTip": "MyLibrary.Web\\Views\\Shared\\_LayoutDetails.cshtml",
-              "ViewState": "AQIAAMMAAAAAAAAAAAAAAN8AAAA7AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-08T17:30:19.064Z",
+              "WhenOpened": "2024-06-09T18:21:08.266Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "_LayoutBooks.cshtml",
-              "DocumentMoniker": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.Web\\Views\\Shared\\_LayoutBooks.cshtml",
-              "RelativeDocumentMoniker": "MyLibrary.Web\\Views\\Shared\\_LayoutBooks.cshtml",
-              "ToolTip": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.Web\\Views\\Shared\\_LayoutBooks.cshtml",
-              "RelativeToolTip": "MyLibrary.Web\\Views\\Shared\\_LayoutBooks.cshtml",
-              "ViewState": "AQIAAKIAAAAAAAAAAAAAAMAAAAA5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-06T11:25:30.417Z",
+              "Title": "HttpContextExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.Web\\Extension\\HttpContextExtensions.cs",
+              "RelativeDocumentMoniker": "MyLibrary.Web\\Extension\\HttpContextExtensions.cs",
+              "ToolTip": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.Web\\Extension\\HttpContextExtensions.cs",
+              "RelativeToolTip": "MyLibrary.Web\\Extension\\HttpContextExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T18:23:28.247Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "dbo.BookInfoes [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/ALXN/MyLibrary/True/SqlTable/dbo.BookInfoes.sql",
-              "ToolTip": "dbo.BookInfoes [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-06-08T16:08:38.31Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "BookInfo.cs",
-              "DocumentMoniker": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.Domain\\Entities\\Book\\BookInfo.cs",
-              "RelativeDocumentMoniker": "MyLibrary.Domain\\Entities\\Book\\BookInfo.cs",
-              "ToolTip": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.Domain\\Entities\\Book\\BookInfo.cs",
-              "RelativeToolTip": "MyLibrary.Domain\\Entities\\Book\\BookInfo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAFAAAA",
+              "Title": "BaseController.cs",
+              "DocumentMoniker": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.Web\\Controllers\\BaseController.cs",
+              "RelativeDocumentMoniker": "MyLibrary.Web\\Controllers\\BaseController.cs",
+              "ToolTip": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.Web\\Controllers\\BaseController.cs",
+              "RelativeToolTip": "MyLibrary.Web\\Controllers\\BaseController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAkwB8AAABZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T21:01:51.246Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "BookContext.cs",
-              "DocumentMoniker": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.BusinessLogic\\DBModel\\BookContext.cs",
-              "RelativeDocumentMoniker": "MyLibrary.BusinessLogic\\DBModel\\BookContext.cs",
-              "ToolTip": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.BusinessLogic\\DBModel\\BookContext.cs",
-              "RelativeToolTip": "MyLibrary.BusinessLogic\\DBModel\\BookContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T14:14:22.672Z",
+              "WhenOpened": "2024-06-09T18:23:51.876Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "UserConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.BusinessLogic\\Migrations\\UserContext\\UserConfiguration.cs",
-              "RelativeDocumentMoniker": "MyLibrary.BusinessLogic\\Migrations\\UserContext\\UserConfiguration.cs",
-              "ToolTip": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.BusinessLogic\\Migrations\\UserContext\\UserConfiguration.cs",
-              "RelativeToolTip": "MyLibrary.BusinessLogic\\Migrations\\UserContext\\UserConfiguration.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAvAAAA",
+              "Title": "UserMinimal.cs",
+              "DocumentMoniker": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.Domain\\Entities\\User\\UserMinimal.cs",
+              "RelativeDocumentMoniker": "MyLibrary.Domain\\Entities\\User\\UserMinimal.cs",
+              "ToolTip": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.Domain\\Entities\\User\\UserMinimal.cs",
+              "RelativeToolTip": "MyLibrary.Domain\\Entities\\User\\UserMinimal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T15:30:08.15Z"
+              "WhenOpened": "2024-06-09T18:31:57.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ISession.cs",
+              "DocumentMoniker": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.BusinessLogic\\Interfaces\\ISession.cs",
+              "RelativeDocumentMoniker": "MyLibrary.BusinessLogic\\Interfaces\\ISession.cs",
+              "ToolTip": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.BusinessLogic\\Interfaces\\ISession.cs",
+              "RelativeToolTip": "MyLibrary.BusinessLogic\\Interfaces\\ISession.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T20:44:54.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SessionBL.cs",
+              "DocumentMoniker": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.BusinessLogic\\MainBL\\SessionBL.cs",
+              "RelativeDocumentMoniker": "MyLibrary.BusinessLogic\\MainBL\\SessionBL.cs",
+              "ToolTip": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.BusinessLogic\\MainBL\\SessionBL.cs",
+              "RelativeToolTip": "MyLibrary.BusinessLogic\\MainBL\\SessionBL.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T20:45:07.65Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "dbo.UDbTables [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/ALXN/MyLibrary/True/SqlTable/dbo.UDbTables.sql",
-              "ToolTip": "dbo.UDbTables [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-06-06T15:31:20.575Z"
+              "Title": "AdminSessionBL.cs",
+              "DocumentMoniker": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.BusinessLogic\\MainBL\\AdminSessionBL.cs",
+              "RelativeDocumentMoniker": "MyLibrary.BusinessLogic\\MainBL\\AdminSessionBL.cs",
+              "ToolTip": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.BusinessLogic\\MainBL\\AdminSessionBL.cs",
+              "RelativeToolTip": "MyLibrary.BusinessLogic\\MainBL\\AdminSessionBL.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T20:40:42.653Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
+              "Title": "_LayoutLogin.cshtml",
+              "DocumentMoniker": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.Web\\Views\\Shared\\_LayoutLogin.cshtml",
+              "RelativeDocumentMoniker": "MyLibrary.Web\\Views\\Shared\\_LayoutLogin.cshtml",
+              "ToolTip": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.Web\\Views\\Shared\\_LayoutLogin.cshtml",
+              "RelativeToolTip": "MyLibrary.Web\\Views\\Shared\\_LayoutLogin.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-09T18:19:56.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MyLibrary.Web\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MyLibrary.Web\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAHYCAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-09T18:20:20.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UserContext.cs",
+              "DocumentMoniker": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.BusinessLogic\\DBModel\\UserContext.cs",
+              "RelativeDocumentMoniker": "MyLibrary.BusinessLogic\\DBModel\\UserContext.cs",
+              "ToolTip": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.BusinessLogic\\DBModel\\UserContext.cs",
+              "RelativeToolTip": "MyLibrary.BusinessLogic\\DBModel\\UserContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T19:43:47.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "UDbTable.cs",
               "DocumentMoniker": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.Domain\\Entities\\User\\UDbTable.cs",
               "RelativeDocumentMoniker": "MyLibrary.Domain\\Entities\\User\\UDbTable.cs",
               "ToolTip": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.Domain\\Entities\\User\\UDbTable.cs",
               "RelativeToolTip": "MyLibrary.Domain\\Entities\\User\\UDbTable.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T12:22:34.342Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "202406061525140_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.BusinessLogic\\Migrations\\BookContext\\202406061525140_InitialCreate.cs",
-              "RelativeDocumentMoniker": "MyLibrary.BusinessLogic\\Migrations\\BookContext\\202406061525140_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.BusinessLogic\\Migrations\\BookContext\\202406061525140_InitialCreate.cs",
-              "RelativeToolTip": "MyLibrary.BusinessLogic\\Migrations\\BookContext\\202406061525140_InitialCreate.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T15:25:36.432Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "BookConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.BusinessLogic\\Migrations\\BookContext\\BookConfiguration.cs",
-              "RelativeDocumentMoniker": "MyLibrary.BusinessLogic\\Migrations\\BookContext\\BookConfiguration.cs",
-              "ToolTip": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.BusinessLogic\\Migrations\\BookContext\\BookConfiguration.cs",
-              "RelativeToolTip": "MyLibrary.BusinessLogic\\Migrations\\BookContext\\BookConfiguration.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T15:23:31.222Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "SessionContext.cs",
-              "DocumentMoniker": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.BusinessLogic\\DBModel\\SessionContext.cs",
-              "RelativeDocumentMoniker": "MyLibrary.BusinessLogic\\DBModel\\SessionContext.cs",
-              "ToolTip": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.BusinessLogic\\DBModel\\SessionContext.cs",
-              "RelativeToolTip": "MyLibrary.BusinessLogic\\DBModel\\SessionContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T14:14:30.032Z"
+              "WhenOpened": "2024-06-09T19:36:27.352Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 19,
-              "Title": "UserReg.cs",
-              "DocumentMoniker": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.Web\\Models\\UserReg.cs",
-              "RelativeDocumentMoniker": "MyLibrary.Web\\Models\\UserReg.cs",
-              "ToolTip": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.Web\\Models\\UserReg.cs",
-              "RelativeToolTip": "MyLibrary.Web\\Models\\UserReg.cs",
+              "Title": "Session.cs",
+              "DocumentMoniker": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.Domain\\Entities\\User\\Session.cs",
+              "RelativeDocumentMoniker": "MyLibrary.Domain\\Entities\\User\\Session.cs",
+              "ToolTip": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.Domain\\Entities\\User\\Session.cs",
+              "RelativeToolTip": "MyLibrary.Domain\\Entities\\User\\Session.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T21:20:28.737Z"
+              "WhenOpened": "2024-06-09T19:36:10.812Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 20,
-              "Title": "AdminViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.Web\\Models\\AdminViewModel.cs",
-              "RelativeDocumentMoniker": "MyLibrary.Web\\Models\\AdminViewModel.cs",
-              "ToolTip": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.Web\\Models\\AdminViewModel.cs",
-              "RelativeToolTip": "MyLibrary.Web\\Models\\AdminViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T18:57:27.711Z"
+              "Title": "_LayoutDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.Web\\Views\\Shared\\_LayoutDetails.cshtml",
+              "RelativeDocumentMoniker": "MyLibrary.Web\\Views\\Shared\\_LayoutDetails.cshtml",
+              "ToolTip": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.Web\\Views\\Shared\\_LayoutDetails.cshtml",
+              "RelativeToolTip": "MyLibrary.Web\\Views\\Shared\\_LayoutDetails.cshtml",
+              "ViewState": "AQIAAI0AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-09T18:20:52.453Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 21,
               "Title": "_LayoutAdmin.cshtml",
               "DocumentMoniker": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.Web\\Views\\Shared\\_LayoutAdmin.cshtml",
               "RelativeDocumentMoniker": "MyLibrary.Web\\Views\\Shared\\_LayoutAdmin.cshtml",
               "ToolTip": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.Web\\Views\\Shared\\_LayoutAdmin.cshtml",
               "RelativeToolTip": "MyLibrary.Web\\Views\\Shared\\_LayoutAdmin.cshtml",
-              "ViewState": "AQIAALUAAAAAAAAAAAAgwNgAAABDAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-21T18:45:06.598Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "UserData.cs",
-              "DocumentMoniker": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.Web\\Models\\UserData.cs",
-              "RelativeDocumentMoniker": "MyLibrary.Web\\Models\\UserData.cs",
-              "ToolTip": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.Web\\Models\\UserData.cs",
-              "RelativeToolTip": "MyLibrary.Web\\Models\\UserData.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T19:06:36.226Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "AdminAPI.cs",
-              "DocumentMoniker": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.BusinessLogic\\Core\\AdminAPI.cs",
-              "RelativeDocumentMoniker": "MyLibrary.BusinessLogic\\Core\\AdminAPI.cs",
-              "ToolTip": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.BusinessLogic\\Core\\AdminAPI.cs",
-              "RelativeToolTip": "MyLibrary.BusinessLogic\\Core\\AdminAPI.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAE4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T11:43:20.532Z"
+              "WhenOpened": "2024-06-09T18:19:47.616Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 22,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.Web\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "MyLibrary.Web\\Controllers\\AdminController.cs",
-              "ToolTip": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.Web\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "MyLibrary.Web\\Controllers\\AdminController.cs",
-              "ViewState": "AQIAAEgAAAAAAAAAAAAmwGMAAABTAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T19:03:27.868Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "URegisterData.cs",
-              "DocumentMoniker": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.Domain\\Entities\\User\\URegisterData.cs",
-              "RelativeDocumentMoniker": "MyLibrary.Domain\\Entities\\User\\URegisterData.cs",
-              "ToolTip": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.Domain\\Entities\\User\\URegisterData.cs",
-              "RelativeToolTip": "MyLibrary.Domain\\Entities\\User\\URegisterData.cs",
+              "Title": "_LayoutBooks.cshtml",
+              "DocumentMoniker": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.Web\\Views\\Shared\\_LayoutBooks.cshtml",
+              "RelativeDocumentMoniker": "MyLibrary.Web\\Views\\Shared\\_LayoutBooks.cshtml",
+              "ToolTip": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.Web\\Views\\Shared\\_LayoutBooks.cshtml",
+              "RelativeToolTip": "MyLibrary.Web\\Views\\Shared\\_LayoutBooks.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T12:22:31.141Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "BAddResp.cs",
-              "DocumentMoniker": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.Domain\\Entities\\Book\\BAddResp.cs",
-              "RelativeDocumentMoniker": "MyLibrary.Domain\\Entities\\Book\\BAddResp.cs",
-              "ToolTip": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.Domain\\Entities\\Book\\BAddResp.cs",
-              "RelativeToolTip": "MyLibrary.Domain\\Entities\\Book\\BAddResp.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T12:01:45.524Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.Web\\Views\\Admin\\Index.cshtml",
-              "RelativeDocumentMoniker": "MyLibrary.Web\\Views\\Admin\\Index.cshtml",
-              "ToolTip": "C:\\Users\\alinp\\source\\repos\\MyLibrary.Web\\MyLibrary.Web\\Views\\Admin\\Index.cshtml",
-              "RelativeToolTip": "MyLibrary.Web\\Views\\Admin\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-21T18:58:28.789Z"
+              "WhenOpened": "2024-06-09T18:19:37.933Z",
+              "EditorCaption": ""
             }
           ]
         }

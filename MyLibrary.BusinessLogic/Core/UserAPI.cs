@@ -31,7 +31,7 @@ namespace MyLibrary.BusinessLogic.Core
 
                     if (result == null)
                     {
-                         return new ULoginResp { Status = false, StatusMsg = "The Username or Password is Incorrect" };
+                         return new ULoginResp { Status = false, StatusMsg = "The Username or Password is Incorrect"  };
                     }
 
                     using (var todo = new UserContext())
@@ -42,7 +42,7 @@ namespace MyLibrary.BusinessLogic.Core
                          todo.SaveChanges();
                     }
 
-                    return new ULoginResp { Status = true };
+                    return new ULoginResp { Status = true, level = result.level};
                
             
           }
